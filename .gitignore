@@ -1,0 +1,9 @@
+# ignore files
+*.mpy
+*.Trashes
+*.metadata_never_index
+*.txt
+
+# ignore the libraries
+lib/
+.fseventsd/
