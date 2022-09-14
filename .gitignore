@@ -3,6 +3,7 @@
 *.Trashes
 *.metadata_never_index
 *.txt
+*.DS_Store
 
 # ignore the libraries
 lib/
