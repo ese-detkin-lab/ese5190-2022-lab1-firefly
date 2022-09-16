@@ -18,74 +18,61 @@ keyboard_layout = KeyboardLayoutUS(keyboard)
 
 apds.enable_color = True
 apds.enable_gesture=True
+apds.enable_proximity = True
 
 apds.color_integration_time=0x22
 
 current_lux=0
 enter_key = Keycode.ENTER
 backspace_key=Keycode.BACKSPACE
+crtl_key=Keycode.CONTROL
+a_key=Keycode.A
 
-str_1="Be careful! It getting dark!"
-str_2="All safe, brighter now."
-str_3="An object just climbed up!"
-str_4="An object just fell down!"
-str_5="An object just turned left!"
-str_6="An object just turned right!"
+str_1="Be careful! It getting dark!\n"
+str_2="All safe, brighter now.\n"
+str_3="An object just climbed up!\n"
+str_4="An object just fell down!\n"
+str_5="An object just turned left!\n"
+str_6="An object just turned right!\n"
 
 
 time.sleep(6)
 while True:
     
+    strs=""
     r, g, b, c = apds.color_data
     lux=colorutility.calculate_lux(r,g,b)
     pixels.fill((r, g, b))
-    
+
     if current_lux>lux*1.5:
-        keyboard_layout.write(str_1)
-        time.sleep(0.4)
-        for i in range(len(str_1)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_1
         current_lux=lux
     elif current_lux<lux/1.5:
-        keyboard_layout.write(str_2)
-        time.sleep(0.4)
-        for i in range(len(str_2)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_2
         current_lux=lux
 
 
     gesture = apds.gesture()
 
     if gesture == 1:
-        keyboard_layout.write(str_3)
-        mouse.move(wheel=-20)
-        time.sleep(0.4)
-        mouse.move(wheel=20)
-        for i in range(len(str_3)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_3
 
     if gesture == 2:
-        keyboard_layout.write(str_4)
-        mouse.move(wheel=20)
-        time.sleep(0.4)
-        mouse.move(wheel=-20)
-        for i in range(len(str_4)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_4
 
     if gesture == 3:
-        keyboard_layout.write(str_5)
-        time.sleep(0.4)
-        for i in range(len(str_5)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_5
 
     if gesture == 4:
-        keyboard_layout.write(str_6)
-        time.sleep(0.4)
-        for i in range(len(str_6)):
-            keyboard.press(backspace_key)
-            keyboard.release_all()
+        strs+=str_6
+
+    keyboard_layout.write(strs)
+    time.sleep(1)
+    for i in range(len(strs)):
+        # print(len(strs))
+        keyboard.press(backspace_key)
+        keyboard.release_all()
+
+
+
+    
