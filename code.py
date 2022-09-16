@@ -67,12 +67,8 @@ while True:
         strs+=str_6
 
     keyboard_layout.write(strs)
-    time.sleep(1)
+    time.sleep(0.4)
     for i in range(len(strs)):
         # print(len(strs))
         keyboard.press(backspace_key)
         keyboard.release_all()
-
-
-
-    
