@@ -15,8 +15,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 2. ## Overview of 4.4
 
+
 3. ## Diagram of embedded system.
-![diagram of the embedded system used](https://github.com/harishramesh98/ese5190-2022-lab1-firefly/blob/7af329e35fc71bb4acb5447884c1fd404595a857/embedded_system_block_diagram.jpeg)
+![diagram of the embedded system used](https://github.com/harishramesh98/ese5190-2022-lab1-firefly/blob/f69d275f3e1db8cf3439e5f79bddcecebff8c354/Embedded_system_block_diagram.jpeg)
 
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
