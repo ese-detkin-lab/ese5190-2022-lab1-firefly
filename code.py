@@ -51,21 +51,24 @@ time.sleep(1)
 keyboard = Keyboard(usb_hid.devices)
 keyboard_layout = KeyboardLayoutUS(keyboard)  # We're in the US :)
 
-last_c = 0
+prev_c = 0
 safe_value = 200
 while True:
     r, g, b, c = apds.color_data
-    print('Red: {0}, Green: {1}, Blue: {2}, Clear: {3}'.format(r, g, b, c))
+    print('Red: {0}, Green: {1}, Blue: {2}, Clear: {3}, prev_c: {4}'.format(r, g, b, c, prev_c))
 
     key = keys_pressed[0]
 
-    if c > 500:
-        if c <= last_c - safe_value:
-            keyboard_helper(control_key)
-        elif c >= last_c + safe_value:
-            keyboard_helper(key)
+    if c > 300:
+        if c <= prev_c - safe_value:
+            keyboard.send(control_key)
+            prev_c = c
+        elif c >= prev_c + safe_value:
+            keyboard.send(key)
+            prev_c = c
         else:
             continue
+    else:
+        prev_c = 0
 
-    time.sleep(0.01)
-    last_c = c
+    time.sleep(0.1)
