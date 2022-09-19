@@ -1,9 +1,6 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+    Qi Xue
+    Tested on: Alienware x15 R1, Windows 11 Home, 11th Gen Intel(R) Core(TM) i7-11800H
 
-(TODO: Your README)
-
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+Problem #3
