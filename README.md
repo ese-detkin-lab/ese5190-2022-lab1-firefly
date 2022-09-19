@@ -1,6 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     Qi Xue
+        qixue@seas.upenn.edu
     Tested on: Alienware x15 R1, Windows 11 Home, 11th Gen Intel(R) Core(TM) i7-11800H
 
 ## Problem3 Firefly visualization
@@ -20,6 +21,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
   My system works as follows:
   
   1. Run the code, and turn on the light;
-  2. Press the ‘+’ button of the light, we can see O was typed;
-  3. Press the '-' button of the light, we can see O was deleted;
-  4. Trun off the light so no input will be take.
+  2. Press the `+` button of the light, we can see O was typed;
+  3. Continue pressing `+` button;
+  4. Press the `-` button of the light, we can see O was deleted;
+  5. Continue pressing `-` button;
+  6. Trun off the light so no input will be take.
