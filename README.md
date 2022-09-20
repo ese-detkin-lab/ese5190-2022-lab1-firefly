@@ -1,9 +1,20 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
+# ESE519-Lab1
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+## Team 
 
-(TODO: Your README)
+Yizhe Wang 
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+Minghui Ni
+
+[LinkedIn Profile](https://www.linkedin.com/in/minghui-ni/)
+Tested on: Gigabyte G5 KD, Windows 11 home 21H2
+
+## Lab output video
+
+
+
+Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. When the light received by the sensor is brighter, character “O” would be print. When the light becomes weaker, character “I” would be print. 
+
+The interaction between user and each components is shown in the diagram below.
+
+<img width="1504" alt="WeChat7f757e794df59be7fbc2de05c5f66f7c" src="https://user-images.githubusercontent.com/114015725/191332983-37bab0b9-2005-4332-ab65-120983f8fb5b.png">
