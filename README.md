@@ -6,8 +6,10 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 (TODO: Your README)
 1. Firefly Visualizer(Q 3.2):
+*APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the RP2040 board.
 
 2. Keyboard Visualizer(Q 4.4):
+
 
 
 
