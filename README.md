@@ -18,4 +18,5 @@ Following the instruction typed on the screen, you need to cycle step 2 and step
 
 If you want to stop the game, just cover the sensor with your hand, and RP2040 will type “Game Interrupted, Mission failed!” on the screen, and the LED will shine a red light. The program end.
 
-![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/4.4%20LED.gif)
+                    ![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/4.4%20LED.gif)
+                                                   GIF of LED change of this program
