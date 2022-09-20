@@ -7,9 +7,12 @@ Yizhe Wang
 Minghui Ni
 
 [LinkedIn Profile](https://www.linkedin.com/in/minghui-ni/)
+
 Tested on: Gigabyte G5 KD, Windows 11 home 21H2
 
 ## Lab output video
+
+![image](https://github.com/minghuin/ese5190-2022-lab1-firefly/blob/main/lab1video1.gif)
 
 
 
