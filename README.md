@@ -25,8 +25,8 @@ Gif of the custom visualizer from 4.4:
 ## Overview of our visualizer from 4.4
 
 1. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. 
-2. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. 
-3. When the light received by the sensor is brighter, character “O” would be print. When the light becomes weaker, character “I” would be print. 
+2. The PC will communicate with the Adafruit board through serial communication connection.
+3. We use the clear data obtained from the APDS 9600 to control the HID keyboard. On the one hand, when the light received by the sensor is brighter, character “O” would be printed through the HID keyboard. On the other hand, when the light becomes weaker, character “I” would be printed through the HID keyboard. 
 4. We are using the firefly video to demonstrate its functionality and its live update ability
 
 
