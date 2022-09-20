@@ -2,21 +2,36 @@
 
 ## Team 
 
-Yizhe Wang 
+Yizhe Wang & Minghui Ni
 
-Minghui Ni
-
-[LinkedIn Profile](https://www.linkedin.com/in/minghui-ni/)
+[Minghui's LinkedIn Profile](https://www.linkedin.com/in/minghui-ni/)
 
 Tested on: Gigabyte G5 KD, Windows 11 home 21H2
 
 ## Lab output video
 
+Gif of the firefly visualizer from 3.2:
+
 ![image](https://github.com/minghuin/ese5190-2022-lab1-firefly/blob/main/lab1video1.gif)
 
 
 
-Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. When the light received by the sensor is brighter, character “O” would be print. When the light becomes weaker, character “I” would be print. 
+Gif of the custom visualizer from 4.4:
+
+![image](https://github.com/minghuin/ese5190-2022-lab1-firefly/blob/main/4.4video.gif)
+
+
+
+## Overview of our visualizer from 4.4
+
+1. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. 
+2. Light Controlled Keyboard Input is achieved by connecting Adafruit QT Py RP2040 and APDS 9600. 
+3. When the light received by the sensor is brighter, character “O” would be print. When the light becomes weaker, character “I” would be print. 
+4. We are using the firefly video to demonstrate its functionality and its live update ability
+
+
+
+## Diagram of our embedded system from 4.4
 
 The interaction between user and each components is shown in the diagram below.
 
