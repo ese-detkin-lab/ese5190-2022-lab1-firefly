@@ -1,6 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     Yuxuan Li
+        liyux@seas.upenn.edu
         https://www.linkedin.com/in/yuxuan-li-26511b203/
     Tested on:  OMEN Laptop 15-ek0xxx, Windows-10 Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz   2.59 GHz
 
