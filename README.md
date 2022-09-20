@@ -17,10 +17,6 @@ Step 3, RP 2040 will type: “Now, Get Darker!” on your screen, that means you
 Following the instruction typed on the screen, you need to cycle step 2 and step 3 for two more times to complete the mission. After you complete the mission, RP2040 will type “Mission Success!” on the screen, and the LED will shine a green light. The program end.
 
 If you want to stop the game, just cover the sensor with your hand, and RP2040 will type “Game Interrupted, Mission failed!” on the screen, and the LED will shine a red light. The program end.
-
-![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/4.4%20LED.gif)
-GIF of LED change of this program       
-![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/4.4%20Screen.gif)
-GIF of on screen display of this program        
+    
 # Diagram of program 4.4
 ![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/Diagram_of_4.4.jpg)
