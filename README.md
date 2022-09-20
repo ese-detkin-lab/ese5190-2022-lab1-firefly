@@ -10,6 +10,10 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 2. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board. The Adafruit QT Py2040 is connected with APDS9960. My visualizer provides a cool indicator of the light intensity of the surroundings.
+
+The parameter integration time is set to be 16, and at this case the brightness value's level range for APDS9960 can be obtained as:
+1025*16 = 16400.
+
 **Rule for the change**:
     1. If the light intensity is higher than the previous one, *RP2040* will type a 'o' on the screen.
     2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
