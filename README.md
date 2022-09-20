@@ -22,3 +22,4 @@ If you want to stop the game, just cover the sensor with your hand, and RP2040 w
 GIF of LED change of this program       
 ![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/4.4%20Screen.gif)
 GIF of on screen display of this program        
+![image](https://github.com/ChiYuan9/ese5190-2022-lab1-firefly/blob/main/photes/Diagram_of_4.4.jpg)
