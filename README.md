@@ -1,7 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     Yuan Chi
-        https://github.com/ChiYuan9
+    https://github.com/ChiYuan9
     Tested on: MacBook Air (13-inch, 2019), macOS Monterey 12.5.1
 
 # Overview of Project 4.4
