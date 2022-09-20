@@ -9,12 +9,12 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
-##3.2 Firefly:
+## 3.2 Firefly:
 
 ![](firefly.gif)
 
 
-##4.4 keyboard lib play around
+## 4.4 keyboard lib play around
 
 ![](4.gif)
 
