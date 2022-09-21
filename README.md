@@ -18,7 +18,8 @@ The parameter integration time is set to be 16, and at this case the brightness 
 **Rule for the change**:
     1. If the light intensity is higher than the previous one, *RP2040* will type a 'o' on the screen.
     2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
-    3. If the light intensity is in the reasonable range, nothing will happen.
+    3. If the light intensity is in the reasonable range, nothing will happen.  
+    
 **Small Game Rule**:
     1. System print the hint to interact with the user to let the user open or close the flashlight.
     2. The system will continue if the user have succesfully complete the option.
