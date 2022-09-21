@@ -71,7 +71,7 @@ To show the real-time color perception ability of these simple chips, we followe
 
 The display result is shown in the gif:
 
-![](assets\ezgif-2-4fe7af08ee.gif)
+![](assets/ezgif-2-4fe7af08ee.gif)
 
 
 ## Brightness and Gesture Perception and HID Display
