@@ -20,4 +20,4 @@
 
 【**Final.mp4**】: Final model video
 
-【**LED.xlsx**】: LED flash in sync with firefly video
+【**LED.MP4**】: LED flash in sync with firefly video
