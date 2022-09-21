@@ -14,8 +14,13 @@ sensor.color_integration_time = 10
 ```
 ![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)  
 
-2. Part 4: "O SCOPE"
+2. Part 4: "O SCOPE"  
 
+For this part, the brightness is visualized by using the keyboard output and the rule for change is defined as follows:
+**Rule for the change**:
+    1. If the light intensity is higher than the previous one, *RP2040* will type a 'o' on the screen.
+    2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
+    3. If the light intensity is in the reasonable range, nothing will happen.  
 
 4. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board after initialization.  
@@ -28,10 +33,7 @@ The Adafruit QT Py2040 is connected with APDS9960. My visualizer provides a cool
 The parameter integration time is set to be 16, and at this case the brightness value's level range for APDS9960 can be obtained as:
 1025*16 = 16400.
 
-**Rule for the change**:
-    1. If the light intensity is higher than the previous one, *RP2040* will type a 'o' on the screen.
-    2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
-    3. If the light intensity is in the reasonable range, nothing will happen.  
+
     
 **Small Game Rule**:
     1. System print the hint to interact with the user to let the user open or close the flashlight.
