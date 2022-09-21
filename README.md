@@ -82,15 +82,15 @@ We design to visualize the brightness changes and object motions through keyboar
 
 The display result is shown in the gif:
 
-![](assets\ezgif-2-8dc9e1e63c.gif)
+![](assets/ezgif-2-8dc9e1e63c.gif)
 
 The diagram of its usage is shown below:
 
-![](assets\Usecase-Diagram-1663505356910-4.png)
+![](assets/Usecase-Diagram-1663505356910-4.png)
 
 The flow chart of this program is shown below:
 
-![](assets\flowchart.png)
+![](assets/flowchart.png)
 
 In the program, we keep a record of the luminance of the last iteration and make a comparison between the current luminance and the previous luminance to indicate whether the environment is getting darker or brighter. Meanwhile, we enable the proximity sensor and the gesture sensor to monitor the surrounding object's movement. We combine the result of brightness change and the object movement together by pre-defined strings and output them using RP2040's HID controllers. Also, in order to maintain a precise indication, we remove all output strings on the screen after a specific time period, also using RP2040's HID controllers.
 
