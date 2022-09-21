@@ -23,6 +23,9 @@ For this part, the brightness is visualized by using the keyboard output and the
     2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
     3. If the light intensity is in the reasonable range, nothing will happen.  
 
+For part 4.3, the corresponding display is shown as follows:  
+![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)  
+
 4. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board after initialization.  
 ```python
