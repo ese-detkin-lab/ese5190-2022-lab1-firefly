@@ -24,7 +24,7 @@ For this part, the brightness is visualized by using the keyboard output and the
     3. If the light intensity is in the reasonable range, nothing will happen.  
 
 For part 4.3, the corresponding display is shown as follows:  
-![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)  
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_3.gif)  
 
 4. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board after initialization.  
