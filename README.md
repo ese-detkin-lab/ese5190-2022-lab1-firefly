@@ -7,7 +7,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 (TODO: Your README)
 1. Firefly Visualizer(Q 3.2):
-*APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the *RP2040* board.
+*APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the *RP2040* board.  
 ![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)
 2. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board. The Adafruit QT Py2040 is connected with APDS9960. My visualizer provides a cool indicator of the light intensity of the surroundings.
