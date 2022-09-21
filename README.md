@@ -11,7 +11,12 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 *APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the *RP2040* board.  
 ![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)
 2. Keyboard Visualizer(Q 4.4):
-The light intensity is detected via the color sensor channel 'c' in the *RP2040* board. The Adafruit QT Py2040 is connected with APDS9960. My visualizer provides a cool indicator of the light intensity of the surroundings.
+The light intensity is detected via the color sensor channel 'c' in the *RP2040* board.  
+```python
+from adafruit_apds9960.apds9960 import APDS9960
+apds = APDS9960(i2c)
+```
+The Adafruit QT Py2040 is connected with APDS9960. My visualizer provides a cool indicator of the light intensity of the surroundings.
 
 The parameter integration time is set to be 16, and at this case the brightness value's level range for APDS9960 can be obtained as:
 1025*16 = 16400.
