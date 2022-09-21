@@ -17,7 +17,8 @@ sensor.color_integration_time = 10
 2. Part 4: "O SCOPE"  
 
 For this part, the brightness is visualized by using the keyboard output and the rule for change is defined as follows:
-**Rule for the change**:
+**Rule for the change**:  
+
     1. If the light intensity is higher than the previous one, *RP2040* will type a 'o' on the screen.
     2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
     3. If the light intensity is in the reasonable range, nothing will happen.  
