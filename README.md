@@ -12,8 +12,12 @@ Since the sensor react slowly to the default sampling rate of the color sensor, 
 ```python
 sensor.color_integration_time = 10
 ```
-![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)
-2. Keyboard Visualizer(Q 4.4):
+![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)  
+
+2. Part 4: "O SCOPE"
+
+
+4. Keyboard Visualizer(Q 4.4):
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board after initialization.  
 ```python
 from adafruit_apds9960.apds9960 import APDS9960
