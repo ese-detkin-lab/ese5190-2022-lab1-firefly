@@ -20,7 +20,7 @@ r, g, b, c = sensor.color_data
 c1=c
 kbd = Keyboard(usb_hid.devices)
 layout = KeyboardLayoutUS(kbd)
-flag = 0
+flag = 0       #to enter different state
 time.sleep(5)  #use for reserving the time for me to open txt
 
 while(1):
