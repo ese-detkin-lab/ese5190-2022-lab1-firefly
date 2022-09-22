@@ -40,7 +40,7 @@ if dis > 210 and dis <= 220:
 In this section we use gesture to control the mouse, when your finger move right, the mouse will move right.
 <img width="500" alt="LED" src="https://user-images.githubusercontent.com/87698138/191641068-65ba78e1-693c-499a-aeae-228d3b4904ac.gif">
 
-'''python
+```python
 gesture = apds.gesture()
 if gesture == 1:
     mouse.move(y=80)
@@ -54,26 +54,26 @@ if gesture == 3:
 if gesture == 4:
     mouse.move(x=-80)
     print('Saw gesture: right')
-'''
+```
 
 ## Light detection and sentance print
 In this section we use the clear of light to print sentence, when it's too dim, the keyboard will print out: "It is too dim. please turn on the light!"
 
 <img width="500" alt="LED" src="https://user-images.githubusercontent.com/87698138/191641797-8f989162-449d-449b-9964-af2cab0dbc3e.gif">
 
-'''python
+```python
 r, g, b, c = apds.color_data
 clear = c / 256
 pixels.fill((clear, clear, clear))
 if clear <2 :
     print("clear: ", clear)
     keyboard_layout.write('It is too dim, please turn on the light!\n')
-'''
+```
 
 ## Break and Stop
 When the claer of light is high enough, the while loop will break and the system will stop
-'''python
+```python
 if clear > 220:
     print('System turn off')
     break
-'''
+```
