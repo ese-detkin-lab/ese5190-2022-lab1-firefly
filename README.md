@@ -2,7 +2,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     Yuxuan Li
         liyux@seas.upenn.edu
-        https://www.linkedin.com/in/yuxuan-li-26511b203/
+        [Yuxuan's LinkedIn](https://www.linkedin.com/in/yuxuan-li-26511b203/)
     Tested on:  OMEN Laptop 15-ek0xxx, Windows-10 Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz   2.59 GHz
     Partner: Yuxin Wang, Xingqi Pan
 # Lab description
@@ -75,7 +75,11 @@ The parameter integration time is set to be 16, and at this case the brightness 
     
     5. The game will automatically stop after 4 rounds of open operation.
 
-![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Diagram%20for%204.4.jpg)
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Diagram%20for%204.4.jpg)  
+
+The sample output interactive test tests is shown as:
+
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Sample_Output_4.4.PNG)
     
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_4.gif)  
 
