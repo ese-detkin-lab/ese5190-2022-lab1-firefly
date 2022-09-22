@@ -1,7 +1,7 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-   Sugata Sen, Harish Ramesh
-   https://www.linkedin.com/in/sugata-sen/ ; https://www.linkedin.com/in/harishramesh1998/
+    Sugata Sen, Harish Ramesh
+        https://www.linkedin.com/in/sugata-sen/ ; https://www.linkedin.com/in/harishramesh1998/
     Tested on:  ASUS ROG GL-552 VW, Windows-10 ; Lenovo Legion Slim-7, Windows-11
     
 ## 1. Outputs
