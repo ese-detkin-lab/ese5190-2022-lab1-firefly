@@ -14,7 +14,7 @@ For this lab session:
 # Embedded Diagram
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Lab1_System_Overview.jpg)  
 **System Overview**:
-![]()
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/System_Overview.jpg)
 # Lab demo
 1. **Firefly Visualizer(Q 3.2)**:  
 
