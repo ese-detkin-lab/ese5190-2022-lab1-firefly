@@ -22,9 +22,12 @@
 
 【**LED.MP4**】: LED flash in sync with firefly video
 
-# Part4 code detail
-## Distance detection and keyboard print
+# Code detail
+## Flash with firefly
 <img width="500" alt="LED" src="https://user-images.githubusercontent.com/87698138/191640161-04dbe934-9722-4e28-8a65-5aab26399df2.gif">
+
+## Distance detection and keyboard print
+<img width="500" alt="LED" src="https://user-images.githubusercontent.com/87698138/191643495-2644e8ce-8a74-4bed-bdcb-e6bc06b8a1f6.gif">
 
 In this section we use distance to control the keyboard, when the value of distance is large enough (when you close to the sensor) the keyboard will print a or B.
 ```python
