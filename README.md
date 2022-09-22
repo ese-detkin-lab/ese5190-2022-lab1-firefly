@@ -33,7 +33,8 @@ from adafruit_apds9960.apds9960 import APDS9960
 apds = APDS9960(i2c)
 ```
 The Adafruit QT Py2040 is connected with APDS9960.  
-PC is used to receive the infstructions and take corresponding actions.
+PC is used to receive the infstructions and take corresponding actions.  
+
 My visualizer provides a cool indicator of the light intensity of the surroundings.
 
 The parameter integration time is set to be 16, and at this case the brightness value's level range for APDS9960 can be obtained as:
