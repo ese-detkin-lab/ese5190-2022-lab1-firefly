@@ -37,5 +37,7 @@ Then we will see sth like this:(I am just trying to make it longer)
 Here's a diagram:
 ![diagram](https://user-images.githubusercontent.com/114169032/191854762-4aab0df6-5c94-432d-8e0f-34c2f679c1ea.png)
 
+But there do exist a problem: I don't know how to retpye in "I" and "L"after they are removed by "backspace" command.
+
 
 
