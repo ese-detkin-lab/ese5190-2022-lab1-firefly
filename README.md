@@ -13,7 +13,8 @@ For this lab session:
 - The sensor can interactive with PC and act as the mouse and keyboard.
 
 # Lab demo
-1. Firefly Visualizer(Q 3.2):
+1. **Firefly Visualizer(Q 3.2)**:  
+
 *APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the *RP2040* board.  
 Since the sensor react slowly to the default sampling rate of the color sensor, so we increase the sensor's sampling rate at this part in order to have a real-time perception of the color with:   
 ```python
