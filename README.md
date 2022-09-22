@@ -14,7 +14,7 @@
 <img width="500" alt="system" src="https://user-images.githubusercontent.com/87698138/191405058-359b99c5-cec0-42bd-958d-8d8cd8c84b57.png">
 
 # File Description
-【**code(Part3.3).py**】: Change LED color with ambient light
+【**code(Part3.2).py**】: Change LED color with ambient light
 
 【**code(Part4.4).py**】: Final model code
 
