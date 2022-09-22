@@ -5,12 +5,14 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
         https://www.linkedin.com/in/yuxuan-li-26511b203/
     Tested on:  OMEN Laptop 15-ek0xxx, Windows-10 Intel(R) Core(TM) i7-10750H CPU @ 2.60GHz   2.59 GHz
     Partner: Yuxin Wang, Xingqi Pan
+# Lab description
 For this lab session:  
 - The MCU Adafruit QT Py RP2040 is set up and connected with the APDS99560 sensor board.
 - Conduct the color regcognition and the display task with neopixel library
 - The sensor can conduct brightness, gesture and color perception.
 - The sensor can interactive with PC and act as the mouse and keyboard.
 
+# Lab demo
 1. Firefly Visualizer(Q 3.2):
 *APDS9960* is used to detect the light from the video 'Firefly', the light is changed synchronically via the RED LED light in the *RP2040* board.  
 Since the sensor react slowly to the default sampling rate of the color sensor, so we increase the sensor's sampling rate at this part in order to have a real-time perception of the color with:   
