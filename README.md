@@ -36,4 +36,4 @@ Gif of the custom visualizer from 4.4:
 
 The interaction between user and each components is shown in the diagram below.
 
-<img width="1504" alt="WeChat7f757e794df59be7fbc2de05c5f66f7c" src="https://user-images.githubusercontent.com/114015725/191332983-37bab0b9-2005-4332-ab65-120983f8fb5b.png">
+<img width="1504" src="https://github.com/minghuin/ese5190-2022-lab1-firefly/blob/main/diagram_of_lab_1.jpg">
