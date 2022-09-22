@@ -24,7 +24,7 @@ In order to make the system real-time, the response time of color detection shou
 | 72                       | 200 ms  | 65535     |                  |
 | 256                      | 712 ms  | 65535     | Driver Default   |
 
-Too short reaction time is not sensitive enough for the brightness. Thus, after experiments, the value `color_integration_time`   is chosen to be 37.
+Too short reaction time is not sensitive enough for the brightness. Thus, after experiments, the value `color_integration_time`   is chosen to be 10.
 
 And the main part of the code is as follow
 
