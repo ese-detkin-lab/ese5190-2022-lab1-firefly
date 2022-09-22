@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 ```
 Chenwei Tang
-  email:tchenwei@seas.upenn.edu
-  Linkedin:https://www.linkedin.com/in/chenwei-tang-3328a224b/
+  email:[tchenwei@seas.upenn.edu](tchenwei@seas.upenn.edu)
+  Linkedin:[https://www.linkedin.com/in/chenwei-tang-3328a224b/](https://www.linkedin.com/in/chenwei-tang-3328a224b/)
  Tested on: Legion Y7000, Windows 10 21H2
 ```
 # Introduction
