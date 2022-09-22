@@ -20,3 +20,4 @@ The display result is shown below:
 
 
 The diagram that showws how the components interact is showing below:
+![2301663874311_ pic_hd](https://user-images.githubusercontent.com/114005477/191832837-7452cb1f-a5ce-4ee2-abfd-c0f32500f5a5.jpg)
