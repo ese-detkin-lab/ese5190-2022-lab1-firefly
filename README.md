@@ -32,6 +32,9 @@ For this part, the brightness is visualized by using the keyboard output and the
     2. If the light intensity is lower than the previous one, *RP2040* will conduct backspace operation and delete the corresponding character on the screen.
     3. If the light intensity is in the reasonable range, nothing will happen.  
 
+An example of the output of the brightness and previous britness value are shown as follows:
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Diagram%20for%204.4.jpg)
+
 For part 4.3, the corresponding display is shown as follows:  
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_3.gif)  
 
