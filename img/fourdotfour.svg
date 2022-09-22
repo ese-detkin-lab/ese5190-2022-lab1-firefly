@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="994pt" height="140pt" viewBox="0.00 0.00 993.86 140.42">
+<g id="graph0" class="graph" transform="translate(4,136.4199981689453) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-136.42 989.86,-136.42 989.86,4 -4,4"/>
+<!-- User -->
+<g id="node1" class="node" pointer-events="visible" data-name="User">
+
+<ellipse fill="none" stroke="black" cx="31.96" cy="-89" rx="29.04" ry="18"/>
+<text text-anchor="middle" x="31.96" y="-84.8" font-family="Times,serif" font-size="14.00">User</text>
+</g>
+<!-- APDS9960 -->
+<g id="node2" class="node" pointer-events="visible" data-name="APDS9960">
+
+<ellipse fill="none" stroke="black" cx="314.35" cy="-46" rx="55.08" ry="18"/>
+<text text-anchor="middle" x="314.35" y="-41.8" font-family="Times,serif" font-size="14.00">APDS9960</text>
+</g>
+<!-- User&#45;&gt;APDS9960 -->
+<g id="edge1" class="edge" data-name="User-&gt;APDS9960">
+
+<path fill="none" stroke="black" d="M51,-75.19C59.83,-69.21 70.91,-62.81 81.92,-59.4 137.07,-42.29 203.09,-40.15 250.48,-41.57"/>
+<polygon fill="black" stroke="black" points="250.48,-45.08 260.6,-41.94 250.73,-38.08 250.48,-45.08"/>
+<text text-anchor="middle" x="161.61" y="-81" font-family="Times,serif" font-size="14.00">Aim sensor toward light,</text>
+<text text-anchor="middle" x="161.61" y="-64.2" font-family="Times,serif" font-size="14.00">cover sensor to end program</text>
+</g>
+<!-- Terminal emulator\n(running on PC) -->
+<g id="node4" class="node" pointer-events="visible" data-name="Terminal emulator\n(running on PC)">
+
+<ellipse fill="none" stroke="black" cx="900.6" cy="-103" rx="85.01" ry="29.33"/>
+<text text-anchor="middle" x="900.6" y="-107.2" font-family="Times,serif" font-size="14.00">Terminal emulator</text>
+<text text-anchor="middle" x="900.6" y="-90.4" font-family="Times,serif" font-size="14.00">(running on PC)</text>
+</g>
+<!-- User&#45;&gt;Terminal emulator\n(running on PC) -->
+<g id="edge6" class="edge" data-name="User-&gt;Terminal emulator\n(running on PC)">
+
+<path fill="none" stroke="black" d="M61.16,-91.64C67.95,-92.18 75.19,-92.68 81.92,-93 343.58,-105.27 652.82,-105.05 805.13,-103.97"/>
+<polygon fill="black" stroke="black" points="805.41,-107.47 815.38,-103.89 805.36,-100.47 805.41,-107.47"/>
+<text text-anchor="middle" x="432.68" y="-107.2" font-family="Times,serif" font-size="14.00">Restart program</text>
+</g>
+<!-- RP2040 -->
+<g id="node3" class="node" pointer-events="visible" data-name="RP2040">
+
+<ellipse fill="none" stroke="black" cx="538.13" cy="-46" rx="42.33" ry="18"/>
+<text text-anchor="middle" x="538.13" y="-41.8" font-family="Times,serif" font-size="14.00">RP2040</text>
+</g>
+<!-- APDS9960&#45;&gt;RP2040 -->
+<g id="edge2" class="edge" data-name="APDS9960-&gt;RP2040">
+
+<path fill="none" stroke="black" d="M369.6,-46C404.93,-46 450.75,-46 485.54,-46"/>
+<polygon fill="black" stroke="black" points="485.95,-49.5 495.95,-46 485.95,-42.5 485.95,-49.5"/>
+<text text-anchor="middle" x="432.68" y="-50.2" font-family="Times,serif" font-size="14.00">I2C bus</text>
+</g>
+<!-- RP2040&#45;&gt;Terminal emulator\n(running on PC) -->
+<g id="edge3" class="edge" data-name="RP2040-&gt;Terminal emulator\n(running on PC)">
+
+<path fill="none" stroke="black" d="M578.91,-50.72C585.39,-51.48 592.03,-52.26 598.3,-53 686.75,-63.39 709.82,-59.71 797.35,-76.2 806.15,-77.86 815.32,-79.86 824.39,-82.01"/>
+<polygon fill="black" stroke="black" points="823.63,-85.43 834.18,-84.4 825.29,-78.63 823.63,-85.43"/>
+<text text-anchor="middle" x="697.82" y="-80.2" font-family="Times,serif" font-size="14.00">Output sensor readings</text>
+</g>
+<!-- PC (as HID) -->
+<g id="node6" class="node" pointer-events="visible" data-name="PC (as HID)">
+
+<ellipse fill="none" stroke="black" cx="900.6" cy="-35" rx="59.13" ry="18"/>
+<text text-anchor="middle" x="900.6" y="-30.8" font-family="Times,serif" font-size="14.00">PC (as HID)</text>
+</g>
+<!-- RP2040&#45;&gt;PC (as HID) -->
+<g id="edge5" class="edge" data-name="RP2040-&gt;PC (as HID)">
+
+<path fill="none" stroke="black" d="M576.9,-38.82C583.98,-37.74 591.35,-36.79 598.3,-36.2 678.12,-29.47 770.27,-30.37 831.42,-32.17"/>
+<polygon fill="black" stroke="black" points="831.61,-35.68 841.72,-32.49 831.83,-28.68 831.61,-35.68"/>
+<text text-anchor="middle" x="697.82" y="-41.2" font-family="Times,serif" font-size="14.00">Type characters to display intensity</text>
+</g>
+<!-- Light -->
+<g id="node5" class="node" pointer-events="visible" data-name="Light">
+
+<ellipse fill="none" stroke="black" cx="31.96" cy="-18" rx="31.92" ry="18"/>
+<text text-anchor="middle" x="31.96" y="-13.8" font-family="Times,serif" font-size="14.00">Light</text>
+</g>
+<!-- Light&#45;&gt;APDS9960 -->
+<g id="edge4" class="edge" data-name="Light-&gt;APDS9960">
+
+<path fill="none" stroke="black" d="M63.63,-14.86C104.54,-11.43 179.04,-7.81 241.31,-19.2 251.45,-21.06 262.03,-24.23 271.86,-27.76"/>
+<polygon fill="black" stroke="black" points="270.81,-31.11 281.4,-31.37 273.29,-24.56 270.81,-31.11"/>
+<text text-anchor="middle" x="161.61" y="-24.2" font-family="Times,serif" font-size="14.00">Excite sensor</text>
+</g>
+</g>
+</svg>
