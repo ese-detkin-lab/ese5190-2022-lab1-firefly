@@ -30,6 +30,7 @@ apds = APDS9960(i2c)
 apds.enable_color = True
 apds.enable_proximity = True
 apds.enable_gesture = True
+apds.color_integration_time = 150
 
 # define keyboard (hid)
 keyboard = Keyboard(usb_hid.devices)
@@ -42,7 +43,7 @@ mouse = Mouse(usb_hid.devices)
 while True:
     # # use distance print alphabet
     dis = apds.proximity
-    if dis > 180 and dis <= 210:
+    if dis > 100 and dis <= 210:
         print('distance is:', dis)
         keyboard.send(Keycode.A)
     if dis > 210 and dis <= 220:
@@ -52,19 +53,11 @@ while True:
     # use ambient light print sentence
     # test it on the totally dark place
     r, g, b, c = apds.color_data
-    red = r * 255 / 65535
-    green = g * 255 / 65535
-    blue = b * 255 /65535
-    pixels.fill((red, green, blue))
-    if red > 100 :
-        print("red: ", red, " green: ", green, " blue: ", blue)
-        keyboard_layout.write('warm light\n')
-    elif green > 100:
-        print("red: ", red, " green: ", green, " blue: ", blue)
-        keyboard_layout.write('color of sping\n')
-    elif blue > 100:
-        print("red: ", red, " green: ", green, " blue: ", blue)
-        keyboard_layout.write('color of winter\n')
+    clear = c / 256
+    pixels.fill((clear, clear, clear))
+    if clear <2 :
+        print("clear: ", clear)
+        keyboard_layout.write('It is too dim, please turn on the light!\n')
 
     # use gesture move mouse
     gesture = apds.gesture()
@@ -82,5 +75,6 @@ while True:
         print('Saw gesture: right')
 
     # stop when i = 20
-    if red > 200:
+    if clear > 220:
+        print('System turn off')
         break
