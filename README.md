@@ -14,10 +14,24 @@
 <img width="600" alt="system" src="https://user-images.githubusercontent.com/87698138/191405058-359b99c5-cec0-42bd-958d-8d8cd8c84b57.png">
 
 # File Description
-【**code(Part3).py**】: Change LED color with ambient light
+【**code(Part3.3).py**】: Change LED color with ambient light
 
 【**code(Part4.4).py**】: Final model code
 
 【**Final.mp4**】: Final model video
 
 【**LED.MP4**】: LED flash in sync with firefly video
+
+# Part4 code detail
+## Distance detection and keyboard print
+![LED](https://user-images.githubusercontent.com/87698138/191640161-04dbe934-9722-4e28-8a65-5aab26399df2.gif)
+In this section we use distance to control the keyboard, when the value of distance is large enough (when you close to the sensor) the keyboard will print a or B.
+```python
+dis = apds.proximity
+if dis > 100 and dis <= 210:
+    print('distance is:', dis)
+    keyboard.send(Keycode.A)
+if dis > 210 and dis <= 220:
+    keyboard.send(Keycode.SHIFT, Keycode.B)
+    print('distance is:', dis)
+```
