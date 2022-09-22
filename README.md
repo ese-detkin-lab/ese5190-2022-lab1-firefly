@@ -24,7 +24,8 @@
 
 # Part4 code detail
 ## Distance detection and keyboard print
-![LED](https://user-images.githubusercontent.com/87698138/191640161-04dbe934-9722-4e28-8a65-5aab26399df2.gif)
+<img width="600" alt="LED" src="https://user-images.githubusercontent.com/87698138/191640161-04dbe934-9722-4e28-8a65-5aab26399df2.gif">
+
 In this section we use distance to control the keyboard, when the value of distance is large enough (when you close to the sensor) the keyboard will print a or B.
 ```python
 dis = apds.proximity
@@ -37,7 +38,8 @@ if dis > 210 and dis <= 220:
 ```
 ## Gesture control mouse
 In this section we use gesture to control the mouse, when your finger move right, the mouse will move right.
-![gesture](https://user-images.githubusercontent.com/87698138/191641068-65ba78e1-693c-499a-aeae-228d3b4904ac.gif)
+<img width="600" alt="LED" src="https://user-images.githubusercontent.com/87698138/191641068-65ba78e1-693c-499a-aeae-228d3b4904ac.gif">
+
 '''python
 gesture = apds.gesture()
 if gesture == 1:
@@ -56,7 +58,8 @@ if gesture == 4:
 
 ## Light detection and sentance print
 In this section we use the clear of light to print sentence, when it's too dim, the keyboard will print out: "It is too dim. please turn on the light!"
-![Light](https://user-images.githubusercontent.com/87698138/191641797-8f989162-449d-449b-9964-af2cab0dbc3e.gif)
+<img width="600" alt="LED" src="https://user-images.githubusercontent.com/87698138/191641797-8f989162-449d-449b-9964-af2cab0dbc3e.gif">
+
 '''python
 r, g, b, c = apds.color_data
 clear = c / 256
