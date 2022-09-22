@@ -34,7 +34,8 @@ For this part, the brightness is visualized by using the keyboard output and the
 For part 4.3, the corresponding display is shown as follows:  
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_3.gif)  
 
-4. Keyboard Visualizer(Q 4.4):
+4. **Keyboard Custom Visualizer(Q 4.4)**:  
+
 The light intensity is detected via the color sensor channel 'c' in the *RP2040* board after initialization.  
 ```python
 from adafruit_apds9960.apds9960 import APDS9960
