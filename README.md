@@ -11,7 +11,7 @@ For this lab session:
 - Conduct the color regcognition and the display task with neopixel library
 - The sensor can conduct brightness, gesture and color perception.
 - The sensor can interactive with PC and act as the mouse and keyboard.
-
+# Embedded Diagram
 # Lab demo
 1. **Firefly Visualizer(Q 3.2)**:  
 
