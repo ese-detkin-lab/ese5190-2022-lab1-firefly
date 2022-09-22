@@ -17,3 +17,7 @@ In this part, I design a system in which a "o" can move by following my gesture.
 ![image](4.4.gif)
 
 Moreover, if the brightness is smaller than one specific value, the loop will break and then the program will finish.
+And here are the diagram and the dipiction how they interact.
+![image](diagram.png)
+
+![image](interact.png)
