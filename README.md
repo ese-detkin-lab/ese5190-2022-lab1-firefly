@@ -18,6 +18,8 @@ Here is a short video to show:
 
 ## Part 4.4 Custom Visualizer
 This part deals with a designed visualizer to recognize gestures, write proper information out and shine with different colors by the neopixel.
+The visualizer first recognizes a certain gesture(from up, down, left, right), and then provides a sentence on the text editor according to the gesture. Different colors will also be shown on the neopixel with the gesture as a reminder.
+Then there's a 0.3 second sleeping time, in order to prevent an error or overlap of identifying gestures within a short time.
 Here is also a short video:
 
 ![Avatar](./images/visualizer.gif)
