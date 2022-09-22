@@ -47,11 +47,16 @@ My visualizer provides a cool indicator of the light intensity of the surroundin
 The parameter integration time is set to be 16, and at this case the brightness value's level range for APDS9960 can be obtained as:
 1025*16 = 16400.
 
-**Small Game Rule**:
-    1. System print the hint to interact with the user to let the user open or close the flashlight.
-    2. The system will continue if the user have succesfully complete the option.
-    3. If the light intensity is greater, keyboard will print "Good Closer" and the light in the APDS9960 will change to green.
-    4. If the light intensity is weaker, keyboard will print “Good further” and the light in the APDS9960 will change to blue.
+**Small Game Rule**:  
+
+    1. System print the hint to interact with the user to let the user open or close the flashlight.  
+    
+    2. The system will continue if the user have succesfully complete the option.  
+    
+    3. If the light intensity is greater, keyboard will print "Good Closer" and the light in the APDS9960 will change to green.  
+    
+    4. If the light intensity is weaker, keyboard will print “Good further” and the light in the APDS9960 will change to blue.  
+    
     5. The game will automatically stop after 4 rounds of open operation.
 
 # Code
