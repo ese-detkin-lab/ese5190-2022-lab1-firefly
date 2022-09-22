@@ -59,7 +59,7 @@ The parameter integration time is set to be 16, and at this case the brightness 
     
     5. The game will automatically stop after 4 rounds of open operation.
     
-![](https://media.giphy.com/media/9OgMd1veE4DJIdM0yu/giphy.gif)  
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_4.gif)  
 
 # Code
 [**Code: Part3.py**]: Firefly  
