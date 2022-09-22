@@ -23,6 +23,11 @@ Since the sensor react slowly to the default sampling rate of the color sensor, 
 ```python
 sensor.color_integration_time = 10
 ```
+| `color_integration_time` | Time    | Max Count | Note             |
+| ------------------------ | ------- | --------- | ---------------- |
+| 1                        | 2.78 ms | 1025      | Power-on Default |
+| 10                       | 27.8 ms | 10241     |                  |
+| 256                      | 712 ms  | 65535     | Driver Default   |
 ![](https://media.giphy.com/media/UAECYJoWlVC3JI4xSX/giphy.gif)  
 
 2. Part 4: "O SCOPE"  
