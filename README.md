@@ -61,6 +61,8 @@ The parameter integration time is set to be 16, and at this case the brightness 
     4. If the light intensity is weaker, keyboard will print “Good further” and the light in the APDS9960 will change to blue.  
     
     5. The game will automatically stop after 4 rounds of open operation.
+
+![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/Diagram%20for%204.4.jpg)
     
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_4.gif)  
 
