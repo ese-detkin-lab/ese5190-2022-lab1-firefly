@@ -54,7 +54,7 @@ The parameter integration time is set to be 16, and at this case the brightness 
     4. If the light intensity is weaker, keyboard will print “Good further” and the light in the APDS9960 will change to blue.
     5. The game will automatically stop after 4 rounds of open operation.
 
-#Code
+# Code
 [** Code: Part3.py **]: Firefly
 [** Code: Part4.3.py **]: Interact with keyboard to print 'o' and backspace
 [** Code: Part4.4.py **]: Have fun with the real-time visualizer
