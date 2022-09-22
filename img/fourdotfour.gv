@@ -1,0 +1,8 @@
+digraph G {rankdir="LR";
+	User->APDS9960[label="Aim sensor toward light,\ncover sensor to end program"];
+	APDS9960->RP2040[label="I2C bus"];
+	RP2040->"Terminal emulator\n(running on PC)"[label="Output sensor readings"];
+	"Light"->APDS9960[label="Excite sensor"];
+	RP2040->"PC (as HID)"[label="Type characters to display intensity"];
+	User->"Terminal emulator\n(running on PC)"[label="Restart program"]; 
+}
