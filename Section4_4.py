@@ -1,4 +1,4 @@
-"""CircuitPython Essentials HID Keyboard example"""
+"""CircuitPython Essentials HID Keyboard """
 import time
 import board
 import usb_hid
@@ -39,7 +39,7 @@ while True:
     if diff > 0:
         keyboard.press(control_key, keys_pressed[0])
         keyboard.release_all()
-    # if the brightness decrease, type the backspace
+    # if the brightness decrease, type the letter "i"
     elif diff < 0:
         keyboard.press(control_key, keys_pressed[1])
         keyboard.release_all()
