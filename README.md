@@ -25,4 +25,4 @@ Here is also a short video:
 ![Avatar](./images/visualizer.gif)
 
 ## System Diagram
-![Avatar](./images/embedded_system.png)
+![Avatar](./images/embedded_system.jpeg)
