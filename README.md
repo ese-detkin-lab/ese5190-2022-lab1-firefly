@@ -7,6 +7,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 (TODO: Your README)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+    
     #custom real-time visualizer
     import board
     from adafruit_apds9960.apds9960 import APDS9960
@@ -20,7 +21,6 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
     import neopixel
     import busio
     import adafruit_apds9960.apds9960
-
     i2c = board.STEMMA_I2C()
     sensor = APDS9960(i2c)
     sensor.enable_proximity = True
@@ -28,18 +28,15 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
     sensor.enable_color = True
     sensor.color_integration_time = 10
     pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
-
     time.sleep(1)  # Sleep for a bit to avoid a race condition on some systems
     keyboard = Keyboard(usb_hid.devices)
     keyboard_layout = KeyboardLayoutUS(keyboard)  # We're in the US :)
-
     led = digitalio.DigitalInOut(board.SCK)
     led.direction = digitalio.Direction.OUTPUT
-
     c_min = 0.00
     c_max = 10241.00
     step = (c_max - c_min) / 1000.0
-
+    
     def steps(axis):
         """ Maps the c-range to 0-1000 """
         return round((axis - c_min) / step)
