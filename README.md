@@ -46,7 +46,7 @@ Notice that:
 https://user-images.githubusercontent.com/114244957/192005032-9575e462-4189-4930-81bd-42f67fdcab45.mov
 
 As we increase the sampling rate, the LED responses faster to the firefly.
-The sum of the RGB is chosen even though the light of the firefly is yellow. We can also change the brightness of the LED only according to the red and green colors. However, choosing the sum of all lights can boardern the application of this sensor.
+The sum of the RGB is chosen even though the light of the firefly is yellow. We can also change the brightness of the LED only according to the red and green colors. However, choosing the sum of all lights can boardern the application.
 
 ## Section 4 "'O'-SCOPE"
 
@@ -60,21 +60,23 @@ The change of light is not stable due to the influence from the ambient light. W
 
 https://user-images.githubusercontent.com/114244957/192009585-8e16aa02-4ae2-436a-bc81-8f75ac29507c.mov
 
-The readings from the sensor is fast. In order to have sufficient time to detect color change, the most current color and the color four samples away it are chosen for comparison. When there is no change in brightness, there will be no operations. 
+The readings from the sensor are presenting fast. In order to have sufficient time to detect color change, the most current color and the color four samples away it are chosen for comparison. When there is no change in brightness, no operations are triggered. 
 
-Remeber to 
+Remeber to release the keyboard after each press control.
 ```python
 keyboard.release_all()
 ```
-after each press control.
-
 I found it also helpful to include a initiating time (usually 1sec) for the laptop to setup the keyboard and Adafruit9960.
+```python
+time.sleep(1)  # Sleep for a bit to avoid a race condition on some systems
+```
+For this section, a ```countdown``` is used to set the operating time for this application.
 
 ### Section 4.4 RGB Reader with gesture function
 
 https://user-images.githubusercontent.com/114244957/192053439-3e262931-612b-473b-bca0-96ef79d7c168.mov
 
-
+The purpose of this function is to detect color and present its value when instructed. It can be useful when we want to detect a color of a object and record the values in a report. Four gestures are used to present, and modify the result report. Swiping up will ask the sensor to detect the current color and print it to a text-editable software (e.g. Texteditor, Word). Swiping down equals to backspace the line. If we want to delete the entire reading, we can swipe to the left to "undo" (command+Z) the operation. Finally, swiping to the right equals to hitting the Enter key and a new line will start.
 
 
 
