@@ -54,7 +54,7 @@ while True:
 ```
 
 ### Result
-![](https://github.com/MaxMa6150/ese5190-2022-lab1-firefly/blob/main/firefly_visualization.gif)
+![](https://github.com/MaxMa6150/ese5190-2022-lab1-firefly-1/blob/main/firefly_visualization.gif)
 
 RP2040's LED flashed in sync with the firefly in the video.
 
@@ -135,7 +135,7 @@ The light test will go four rounds, then the while loop will break.
 
 
 ### Result
-![](https://github.com/MaxMa6150/ese5190-2022-lab1-firefly/blob/main/keyboard_visualization.gif)
+![](https://github.com/MaxMa6150/ese5190-2022-lab1-firefly-1/blob/main/keyboard_visualization.gif)
 
 ### Diagram of embedded system from 4.4
 ![60deb0d783acc1e6003a718d1167e92](https://user-images.githubusercontent.com/114200453/191920508-ec21f8ff-f0d8-47dc-8363-e5809f412ca7.png)
