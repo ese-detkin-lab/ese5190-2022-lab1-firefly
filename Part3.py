@@ -1,30 +1,22 @@
-#Mouse Control Part
-import time
 import board
-import usb_hid
-from adafruit_hid.keyboard import Keyboard
-from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
-from adafruit_hid.keycode import Keycode
-from adafruit_hid.mouse import Mouse
-from adafruit_apds9960.apds9960 import APDS9960
+import busio
+import adafruit_apds9960.apds9960
+import time
 import neopixel
-time.sleep(1)
+i2c = busio.I2C(board.SCL1, board.SDA1)
+sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
+sensor.enable_proximity = True
+sensor.enable_color = True
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
-i2c = board.STEMMA_I2C()
-apds = APDS9960(i2c)
-apds.enable_gesture = True
-mouse = Mouse(usb_hid.devices)
+sensor.color_integration_time = 10
+clast = 0
 while True:
-    gesture = apds.gesture()
-    if gesture == 1:
-        mouse.move(y=-60)
-        print('Up')
-    if gesture == 2:
-        mouse.move(y=60)
-        print('Down')
-    if gesture == 3:
-        mouse.move(x=-60)
-        print('Left')
-    if gesture == 4:
-        mouse.move(x=60)
-        print('Right')
+    r, g, b, c = sensor.color_data
+    print(c)
+    if(c > clast+5):
+        pixels.fill((255,0,0))
+    else:
+        pixels.fill((0,0,0))
+    clast = c
+    time.sleep(0.05)
+
