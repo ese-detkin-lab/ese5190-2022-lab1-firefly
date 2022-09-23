@@ -7,7 +7,8 @@ To display APDS9960’s sensor readings in real time, we have to change the numb
 ![screenshot1](https://user-images.githubusercontent.com/113371324/191817230-a68f800b-3ca7-4bbf-b15f-7f5a999350a6.png)
 
 ![screenshot2](https://user-images.githubusercontent.com/113371324/191817294-d1a07b96-58b6-4834-9639-6d7152f0cb81.png)
-![screenshot3](https://user-images.githubusercontent.com/113371324/191817331-54c98fd4-b16e-46f1-842a-02392a846df0.png)
+![3 2](https://user-images.githubusercontent.com/113371324/192058128-668ffeb9-7d5e-47ee-aa4d-5b26243d38e6.png)
+
 
 The display result is shown below:
 
