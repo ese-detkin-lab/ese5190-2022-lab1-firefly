@@ -3,7 +3,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     Ang Li 
         E-mail: angliqd@seas.upenn.edu
     Tested on: Lenovo Legion Y7000P (15.6-inch, 2021), windows 11
-
+    
     import board
     from adafruit_apds9960.apds9960 import APDS9960
     import time
@@ -87,6 +87,16 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
             print("right")
             keyboard.press(79)
             keyboard.release_all()
+
+
+![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/schematic%20diagram.jpg)
+
+![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/Function%20clarity.jpg)
+
+![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/firefly.gif)
+
+![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/real-time%20visualizer.gif)
+
 
 
 
