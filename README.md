@@ -83,7 +83,8 @@ The sample output interactive test tests is shown as:
     
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_4.gif)  
 
-# Code
+# Code  
+
 [**Code: Part3.py**]: Firefly  
 
 [**Code: Part4.3.py**]: Interact with keyboard to print 'o' and backspace  
