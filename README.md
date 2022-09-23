@@ -11,7 +11,9 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 2. Subtract the value at the previous time from the value at the next time, and define this difference as 'k'
 3. If k>=0, the LED doesn't get bright and if k<0, the LED turns bright
    the gif of the result: 
-    [link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/edit/main/README.md)
+    <div align=center>
+< img src=>  
+</div>
 ### question: 
 The board reacts much slower than the firefly
 
