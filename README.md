@@ -82,3 +82,5 @@ Swiping up will ask the sensor to detect the current color and print it to a tex
 
 For now, each swiping gesture will also be printed to the report so that we know that the performed gesture is valid. In future case, the printed strings can be removed to tide up the function.
 
+### Diagram of Sec4.4 Embedded system
+![WX20220923-190646](https://user-images.githubusercontent.com/114244957/192067836-b675d239-01e5-4e53-adec-18541d94554c.png)
