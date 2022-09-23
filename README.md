@@ -14,6 +14,11 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 ### The code:
 [link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/3.2copy.py)
 
+### The diagram of my embedded system
+<div align=center>
+<img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/3.2.png" width="420">  
+</div>
+
 ### The gif of the result: 
 <div align=center>
 <img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/ezgif.com-gif-maker%20firefly.gif" width="420">  
@@ -30,6 +35,11 @@ Description: When the sensor senses color, it board will control the keyboard to
 
 ### The code:
 [link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/4.4/4.4%20code.py)
+
+### The diagram of my embedded system
+<div align=center>
+<img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/4.4/4.4.png" width="420">  
+</div>
 
 ### The gif of the result: 
 <div align=center>
