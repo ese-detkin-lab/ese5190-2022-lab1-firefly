@@ -17,10 +17,15 @@ To display APDS9960’s sensor readings in real time, we have to change the numb
 
 The display result is shown below:
 
+![3 3compression](https://user-images.githubusercontent.com/114005477/191997130-d78d1beb-4f6a-400c-a24b-ca159ee231f6.gif)
+
+
 # Part 4:
 In part 4, we visualize APDS9960’s brightness reading by sending keyboard output and displaying them on the laptop. The sensor reads brightness twice in a very short time and the data are saved in different variables. By comparing these variables, the controller knows whether the environment is getting brighter or darker. And when the brightness increases, the keyboard will output "Crazy Thursday !!!", press the "RETURN" key and the green LED on RP2040 blinks, while the brightness decreases, the keyboard will output "V me 50", press the "RETURN" key and the blue LED on RP2040 blinks. To break the program, an 'escape hatch' is settled as if the light intensity is too low, the code stops running.
 
 The display result is shown below:
+
+![4 4 compression](https://user-images.githubusercontent.com/114005477/191997196-c5a7a1d0-2246-45c1-9a19-8939edb4a1e0.gif)
 
 
 The diagram that showws how the components interact is showing below:
