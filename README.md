@@ -1,6 +1,6 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-    (TODO) YOUR NAME HERE
+    (TODO) Siyun Wang
         
 
 (TODO: Your README)
