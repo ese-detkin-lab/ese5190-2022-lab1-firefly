@@ -32,11 +32,11 @@ For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cabl
 11.	 The red value is defined by :"red" = ("r" - "g") / "g".
 12.	Finally, we use the clear (Brightness) {we assign the "c" variable less than 150 to indicate darkness} to exit the main loop. Whenever we want to free our keyboard and stop the program.
 
-So the major operations being:
-**RED LIGHT -> Print/Press * **
-**GREEN LIGHT -> Print/Press SPACEBAR **
-**RED LIGHT -> Print/Press BACKSPACE **
-**Darkness / Low Brightness -> QUITS Program **
+So the major operations being:<br />
+**RED LIGHT -> Print/Press * **<br />
+**GREEN LIGHT -> Print/Press SPACEBAR ** <br />
+**RED LIGHT -> Print/Press BACKSPACE **<br />
+**Darkness / Low Brightness -> QUITS Program **<br />
 
 Some Images / Gifs from our projects.
 
