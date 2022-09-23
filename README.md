@@ -24,5 +24,5 @@ Description: When the sensor senses color, it board will control the keyboard to
 3. The board controls the keyboard to type the name of this color on the screen
 the gif of the result: 
     <div align=center>
-< img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker%20firefly.gif>  
+< img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif>  
 </div>
