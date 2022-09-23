@@ -16,7 +16,7 @@ For my part 4.4 I used the proximity sensor to create a simple system that reads
 
 This simple system could be used to represent how an autonomous car might work. Depending on the distance it picks up from an ultrasonic sensor it could vary the speed using the reading or display a message if an object is approaching. In my code the LED brightness was still based on the color reading because I wanted to use both, but it could be easily changed to be based on the distance. If it was designed to turn on when an object is too close then that could perhaps represent brake lights.
 
-![image](https://user-images.githubusercontent.com/114199773/192070349-5a5aadcc-c1f3-4e59-9714-6d12884a1a55.png)
+![image](https://user-images.githubusercontent.com/114199773/192070655-b4cb242e-cbff-4513-ac55-531696165085.png)
 
 
 Above is a very basic block diagram of the simple system. The user varies the distance of the object first and that user input is what ultimately controls everything else. The APDS then reads that distance and outputs that information to the RP2040. The RP2040 varies an LEDs brightness depending on the distance and then stores that distance value. I represented it storing that value with the circular arrow. After another value is received from the APDS, the RP2040 compares it and tells the PC to print a message of whether the object is getting closer or further away. If the distance stays the same then no message is output.
