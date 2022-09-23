@@ -17,7 +17,7 @@ In part 4.4, I design a program to print "bright" when the brightness increases,
 ![](https://github.com/SEN316/ese5190-2022-lab1-firefly/blob/main/4.4.jpg)
 
 After the sensor is pointed to the video, the sensor will detect the brightness reading of the video and record it value as c in loop. If the brightness reading is larger than the stored value c, the program of RP2040 will print the string "bright". Otherwise, if the brightness reading is smaller than the stored value c, the program of RP2040 will print the string "dim". In same logic, the change of brightness reading of green will make RP2040 type the letter "L" or "S". The whole program has an 
-escape hatch' where it breaks out of the main loop when it senses the brightness of red larger than 1000.
+escape hatch' where it breaks out of the main loop when it senses the brightness of red larger than 1500.
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
