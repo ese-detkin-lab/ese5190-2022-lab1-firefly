@@ -6,11 +6,13 @@ from adafruit_hid.keyboard import Keyboard
 from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
 from adafruit_hid.keycode import Keycode
 
-keys_pressed = ["a","b","c","d","\b"]
+keys_pressed = [Keycode.A, Keycode.B,Keycode.C,Keycode.D,Keycode.BACKSPACE]
+control_key = Keycode.SHIFT
 time.sleep(1)  # Sleep for a bit to avoid a race condition on some systems
 keyboard = Keyboard(usb_hid.devices)
 keyboard_layout = KeyboardLayoutUS(keyboard)
 
+i2c = board.STEMMA_I2C()
 i2c = board.STEMMA_I2C()
 
 apds = APDS9960(i2c)
@@ -26,19 +28,25 @@ while True:
     r, g, b, c = apds.color_data
     gesture = apds.gesture()
     if gesture == 0x01:
-        keyboard_layout.write(keys_pressed[0])
+        keyboard.press(control_key,keys_pressed[0])
+        keyboard.release_all()
     elif gesture == 0x02:
-        keyboard_layout.write(keys_pressed[2])
+        keyboard.press(control_key,keys_pressed[1])
+        keyboard.release_all()
     elif gesture == 0x03:
-        keyboard_layout.write(keys_pressed[3])
+        keyboard.press(control_key,keys_pressed[2])
+        keyboard.release_all()
     elif gesture == 0x04:
-        keyboard_layout.write(keys_pressed[1])
+        keyboard.press(control_key,keys_pressed[3])
+        keyboard.release_all()
     if r>150:
-        keyboard_layout.write(keys_pressed[4])
+        keyboard.press(control_key,keys_pressed[4])
+        keyboard.press(control_key,keys_pressed[4])
+        keyboard.release_all()
     if b>150:
         break
-    
-    
-    
 
-    
+
+
+
+
