@@ -31,5 +31,11 @@ Firefly
 ![3_Firefly_2](https://user-images.githubusercontent.com/112366204/192061779-c6828bd2-359e-43c6-bfbb-3ddfe26b0301.gif)
 
 My Custom Visualizer
+When the sensor is under normal light exposure, the phrase is written by the keyboard till the end of the phrase is reached or the sensor receives less light. In such a situation, the Neopixel turns a bluish white.
+When the sensor is in relative darkness, the phrase/text is removed by backspace until the sensor is exposed to more light. In this case, the Neopixel turns pink.
 
 ![4dot4_visualiser_2](https://user-images.githubusercontent.com/112366204/192061815-83240ec5-c112-44c0-aece-670b26339a50.gif)
+
+Diagram for the Custom visualiser
+
+<img width="576" alt="4dot4_visualiserDiagram" src="https://user-images.githubusercontent.com/112366204/192067107-add8b6ba-8470-49a6-b2a6-a5a8000ba31a.png">
