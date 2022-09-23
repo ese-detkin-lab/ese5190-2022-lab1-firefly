@@ -14,7 +14,7 @@ To display APDS9960’s sensor readings in real time, we have to change the numb
 The display result is shown below:
 
 # Part 4:
-In part 4, we visualize APDS9960’s brightness reading by sending keyboard output and displaying them on the laptop. The sensor reads brightness twice in a very short time and the data are saved in different variables. By comparing these variables, the controller knows whether the environment is getting brighter or darker. And when the brightness increases, the keyboard will output "Crazy Thursday !!!". When the brightness increases, the keyboard will output "V me 50". 
+In part 4, we visualize APDS9960’s brightness reading by sending keyboard output and displaying them on the laptop. The sensor reads brightness twice in a very short time and the data are saved in different variables. By comparing these variables, the controller knows whether the environment is getting brighter or darker. And when the brightness increases, the keyboard will output "Crazy Thursday !!!" and the LED on RP2040 . When the brightness increases, the keyboard will output "V me 50". 
 
 The display result is shown below:
 
