@@ -1,3 +1,4 @@
+#Mouse Control Part
 import time
 import board
 import usb_hid
@@ -12,17 +13,18 @@ pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
 i2c = board.STEMMA_I2C()
 apds = APDS9960(i2c)
 apds.enable_gesture = True
-apds.color_integration_time = 150
-keyboard = Keyboard(usb_hid.devices)
-keyboard_layout = KeyboardLayoutUS(keyboard) 
 mouse = Mouse(usb_hid.devices)
 while True:
     gesture = apds.gesture()
     if gesture == 1:
-        mouse.move(y=80)
+        mouse.move(y=-60)
+        print('Up')
     if gesture == 2:
-        mouse.move(y=-80)
+        mouse.move(y=60)
+        print('Down')
     if gesture == 3:
-        mouse.move(x=80)
+        mouse.move(x=-60)
+        print('Left')
     if gesture == 4:
-        mouse.move(x=-80)
+        mouse.move(x=60)
+        print('Right')
