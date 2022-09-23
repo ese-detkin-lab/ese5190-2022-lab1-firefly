@@ -38,13 +38,13 @@ So the major operations being:<br />
 **RED LIGHT -> Print/Press BACKSPACE**<br />
 **Darkness / Low Brightness -> QUITS Program**<br />
 
-Some Images / Gifs from our projects.
+Some Images / Gifs from our projects.<br />
 
-![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4_Gif_1.gif)
-**We quit as their is darkness**
-![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Quit%20Photo.jpg)
-**Printed Diamond**
-![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Diamond.png)
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4_Gif_1.gif)<br />
+**We quit as their is darkness**<br />
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Quit%20Photo.jpg)<br />
+**Printed Diamond**<br />
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Diamond.png)<br />
 
 
 
