@@ -11,14 +11,12 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 2. Subtract the value at the previous time from the value at the next time, and define this difference as 'k'
 3. If k>=0, the LED doesn't get bright and if k<0, the LED turns bright
    
+### The code:
+[link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/3.2copy.py)
+
 ### the gif of the result: 
 <div align=center>
 <img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/ezgif.com-gif-maker%20firefly.gif" width="420">  
-</div>
-
-### The code:
-<div align=center>
-< img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif >  
 </div>
 
 ### question: 
@@ -31,9 +29,7 @@ Description: When the sensor senses color, it board will control the keyboard to
 3. The board controls the keyboard to type the name of this color on the screen
 
 ### The code:
-<div align=center>
-< img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif >  
-</div>
+[link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/4.4/4.4%20code.py)
 
 ### The gif of the result: 
 <div align=center>
