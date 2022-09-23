@@ -91,3 +91,5 @@ The sample output interactive test tests is shown as:
 **Code: Part4.3.py**: Interact with keyboard to print 'o' and backspace  
 
 **Code: Part4.4.py**: Have fun with the real-time visualizer
+
+**Code: mouse.py**: Control the movement of the mouse by gesture detection
