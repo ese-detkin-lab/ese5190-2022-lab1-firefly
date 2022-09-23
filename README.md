@@ -8,6 +8,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 ![image](firefly.gif)
+![image](real-time visualizer.gif)
     
     #custom real-time visualizer
     import board
