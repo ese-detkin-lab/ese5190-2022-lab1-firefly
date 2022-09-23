@@ -5,7 +5,7 @@
     Tested on: (TODO) MacBook Pro (16-inch, 2021), macOS Monterey 12.6
     Partner: Xingqi Pan, Yuxuan Li
 
-# What it dose
+# What it does
 1.The color of LED will change with the ambient light (if you put the sensor close to firefly's vedio, it will flash in sync with the firefly!)
 2.Your laptop will print character (like 'a', 'b') when you close to the sensor
 3.Your mouse will move with your gesture (if your finger move left, the mouse will alos move left)
