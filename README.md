@@ -5,6 +5,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     Tested on: Thinkpad X1
 
 The following video shows the firefly visualizer:
+
 ![a](https://github.com/real-YingXu/ese5190-2022-lab1-firefly/blob/main/firefly.gif?raw=true)
 
 
