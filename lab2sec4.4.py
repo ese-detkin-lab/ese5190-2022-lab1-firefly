@@ -50,6 +50,7 @@ while countdown >= 0:
     gesture = apds.gesture()
     if gesture == 0x01:
         print("Gesture: up")
+        time.sleep(1) #wait until the finger/hand fully moved out of "sight"
         r, g, b, c = apds.color_data
         print("Red: {0}, Green: {1}, Blue: {2}, Clear: {3}".format(r, g, b, c))
         keyboard_layout.write("Gesture: Up\n")
