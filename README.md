@@ -14,12 +14,12 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 ### The code:
 [link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/3.2copy.py)
 
-### the gif of the result: 
+### The gif of the result: 
 <div align=center>
 <img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/3.2/ezgif.com-gif-maker%20firefly.gif" width="420">  
 </div>
 
-### question: 
+### Question: 
 The board reacts much slower than the firefly
 
 ## Lab1 4.4 The display should update in “real time” along with your sensor
@@ -36,5 +36,5 @@ Description: When the sensor senses color, it board will control the keyboard to
 <img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/4.4/4.4%20gif.gif" width="420">  
 </div>
 
-### question:
+### Question:
 It will type red when there is no specific color close to the sensor.
