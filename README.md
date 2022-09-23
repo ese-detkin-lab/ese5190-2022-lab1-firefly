@@ -24,9 +24,9 @@ This functionality is build by incorporating the features of keyboard hid librar
 Following is the Implementation:
 1) The value of 'c' from the color sensor is read. 
 2) "If" conditions are used to test, which range the value lies in.
-3) The message is printed using keyboard hid library based on the range value lies in.
+3) The value of c is mapped on the range of 0:255. Ths enables us to control intensity on-board led as the light source moves closer, the led burns brightly.
+4) The message is printed using keyboard hid library based on the range value lies in. 
 
-
-
+//////////////////////////insert gif
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
