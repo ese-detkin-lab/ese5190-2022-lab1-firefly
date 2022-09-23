@@ -17,9 +17,9 @@
 - **Requirement**: Send some keyboard commands to a text display on the laptop. And the display should 
 update in “real time” along with the sensor.
 
-- **Function of my system**: To express my deep **love** to Upenn(?)
+- **Function of my system**: To express my **love** to Upenn(?)
 
-- **Rules**:
+- **Rules**:（please run the code at bright areas）
 
 1. When the system runs, where will be a "I L" display on the screen.
 
