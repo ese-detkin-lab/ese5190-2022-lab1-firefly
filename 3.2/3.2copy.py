@@ -33,4 +33,8 @@ while True:
 
 
     if k<100:
-         pixels.fill((255, 0, 0))# 在这里写上你的代码 :-)
+         pixels.fill((255, 0, 0))
+
+    #get the value of preceding time
+    a, x, y, z = apds.color_data
+
