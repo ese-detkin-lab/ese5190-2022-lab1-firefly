@@ -1,9 +1,35 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+     Siddhant Mathur and Ruturaj A. Nanoti
+        www.linkedin.com/in/siddhantmathur14|  www.linkedin.com/in/ruturajn 
+    Tested on: HP Pavilion X360, Windows 10 | ASUS TUF DASH F15, Windows 11 
 
-(TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
+
+## Overview
+
+* The hid_keyboard directory contains the code for **Q4.4**. Our program emulates a keyboard, based on the brightness values and gesture control using the APDS9960 (The Color/Proximity/Gesture sensor). This directory also contains, all the libraries associated with the code, all placed in the lib folder.
+* The firefly directory contains the code for Q3.2, in which the blue LED on the RP2040 dims, and brightens based on the brightness value obtained from APDS9960. As stated above, all the librabries used are placed under the lib directory.
+* All the other directories follow the same organization, of libraries and code.
+
+## Walk Through
+
+### Firefly
+* This program takes in the brightness values from the APDS9960 and scales it down from a range of 0 - 65536 to 0 - 255.
+*The scaling is done to pass the brightness value to the blue LED, on the RP2040. Depending on the brightness, the LED changes from a dimmed state to a bright state, and vice-versa.
+* Finally, when the firefly video is played in front of the sensor, the LED replicates the changes observed in the video.
+
+### Keyboard Emulator
+
+* In this program, the RP2040 was programmed to emulate a keyboard.
+* Firstly, we acquire the brightness data from the APDS9960 and scale it down from a range of 0 - 65536 to 0 - 255.
+* Then, if the brightness value is between 0 and 100. We print out the statement This is very Dim!!\n. The \n character at the end, places the cursor on a newline.
+* If the above condition is not satisfied, we check if the brightness is within the range of 100 to 190. If so, then the BACKSPACE action is sent.
+* While all of the above steps are running, simulataneously we are also checking if the user waves their hand, leftwards or rightwards (i.e. the gesture sensor returns 4 or 3) on the sensor. This action is encoded to quit the program, and hence the execution stops.
+
+
+## GIFs
+
+### Firefly
+
+![]()
