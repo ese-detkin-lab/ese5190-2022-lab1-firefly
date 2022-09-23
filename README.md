@@ -34,7 +34,7 @@ For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cabl
 
 So the major operations being:<br />
 
-**RED LIGHT -> Print/Press ***<br />
+**RED LIGHT -> Print/Press "*"**<br />
 **GREEN LIGHT -> Print/Press SPACEBAR** <br />
 **RED LIGHT -> Print/Press BACKSPACE**<br />
 **Darkness / Low Brightness -> QUITS Program**<br />
