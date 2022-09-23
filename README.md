@@ -6,8 +6,11 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 LAB 1
 Section 1 "BLINK LED"
+
 Easy test code to make sure the board is running properly.
-The blinking frequency can be altered by changing the two "time.sleep()" function.
+
+The blinking frequency can be altered by changing the function:
+    time.sleep()
 
 Section 2 "SENSOR (PROXIMITY/COLOR/GESTURE)"
 
@@ -34,6 +37,7 @@ Notice that:
  There is an advanced version that keep detecting the gestures. The advanced code is used in later section.
 
 Section 3 "FIREFLY"
+
 https://user-images.githubusercontent.com/114244957/192005032-9575e462-4189-4930-81bd-42f67fdcab45.mov
 
 As we increase the sampling rate, the LED responses faster to the firefly.
