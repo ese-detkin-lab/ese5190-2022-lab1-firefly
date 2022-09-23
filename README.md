@@ -33,11 +33,12 @@ The range is from 1 to 256.
 https://user-images.githubusercontent.com/114244957/192003645-10358efb-f69c-49d2-9937-5d7d806beef5.MOV
 
 Notice that:
-    0 = No gesture detected
-    1 = Up gesture detected
-    2 = Down gesture detected
-    3 = Left gesture detected
-    4 = Right gesture detected
+    0 = No gesture detected;
+    1 = Up gesture detected;
+    2 = Down gesture detected;
+    3 = Left gesture detected;
+    4 = Right gesture detected;
+ 
  There is an advanced version that keep detecting the gestures. The advanced code is used in later section.
 
 ## Section 3 "FIREFLY"
@@ -53,11 +54,13 @@ The sum of the RGB is chosen even though the light of the firefly is yellow. We 
 
 https://user-images.githubusercontent.com/114244957/192008665-03610ff3-35b6-4875-a315-2be82404f6b8.mov
 
-The change of light is not stable due to the influence from the ambient light. When we change from cursor to actual "O"-scope, the performace is significently better.
+The change of light is not stable due to the influence from the ambient light. When we change from cursor to actual "O"-scope, the performace is significently better. The code is similar to "O"-scope. It will be explained in the next section.
 
 ### Section 4.3 "O"-scope
 
 https://user-images.githubusercontent.com/114244957/192009585-8e16aa02-4ae2-436a-bc81-8f75ac29507c.mov
+
+
 
 ### Section 4.4 RGB Reader with gesture function
 
