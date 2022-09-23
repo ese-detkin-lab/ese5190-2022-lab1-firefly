@@ -10,7 +10,9 @@ Section 1 "BLINK LED"
 Easy test code to make sure the board is running properly.
 
 The blinking frequency can be altered by changing the function:
+    ```python
     time.sleep()
+    ```
 
 Section 2 "SENSOR (PROXIMITY/COLOR/GESTURE)"
 
