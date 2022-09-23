@@ -41,7 +41,6 @@ while True:
         keyboard.release_all()
     if r>150:
         keyboard.press(control_key,keys_pressed[4])
-        keyboard.press(control_key,keys_pressed[4])
         keyboard.release_all()
     if b>150:
         break
