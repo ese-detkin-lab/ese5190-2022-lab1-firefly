@@ -7,7 +7,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 
 4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.<br />
-Ans:<br />
+<br />
+**Ans:**<br />
 # **A Color - Based Keyboard Device for an Interactive Computer System**
 
 ## **Goal:**
