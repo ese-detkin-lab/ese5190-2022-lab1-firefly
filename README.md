@@ -87,7 +87,7 @@ The sample output interactive test tests is shown as:
 
 [**Code: Part3.py**]: Firefly 
 
-[**Code: Part3.py**]: Firefly 
+[**Code: Part3.py**]: Firefly program
 
 [**Code: Part4.3.py**]: Interact with keyboard to print 'o' and backspace  
 
