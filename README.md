@@ -5,7 +5,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     Tested on:  HP Pavillion Gaming (15.6-inch, 2020), Windows 11
 
 Exercise 3.2
-To implement the Firefly functionality using the Brightness  index of Color Sensor 
+To implement the Firefly functionality using the Brightness index of Color Sensor 
 
 The functionality is implemented in following:
 1) The color sensor is evoked and data is read from it. There are 4 channels of data available from the onboard color sensor. They are 'r', 'g' , 'b' and 'c'. The brightness reading is given in 'c'. 
@@ -28,5 +28,6 @@ Following is the Implementation:
 4) The message is printed using keyboard hid library based on the range value lies in. 
 
 //////////////////////////insert gif
+![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/af1bcd53eb6120af14c140063eb2b53dcf6f92ab/4.4%20diagram.png)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
