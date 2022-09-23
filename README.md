@@ -8,8 +8,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
-4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.
-Ans:
+4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.<br />
+Ans:<br />
 # **A Color - Based Keyboard Device for an Interactive Computer System**
 
 ## **Goal:**
@@ -33,10 +33,11 @@ For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cabl
 12.	Finally, we use the clear (Brightness) {we assign the "c" variable less than 150 to indicate darkness} to exit the main loop. Whenever we want to free our keyboard and stop the program.
 
 So the major operations being:<br />
-**RED LIGHT -> Print/Press * **<br />
-**GREEN LIGHT -> Print/Press SPACEBAR ** <br />
-**RED LIGHT -> Print/Press BACKSPACE **<br />
-**Darkness / Low Brightness -> QUITS Program **<br />
+
+**RED LIGHT -> Print/Press ***<br />
+**GREEN LIGHT -> Print/Press SPACEBAR** <br />
+**RED LIGHT -> Print/Press BACKSPACE**<br />
+**Darkness / Low Brightness -> QUITS Program**<br />
 
 Some Images / Gifs from our projects.
 
