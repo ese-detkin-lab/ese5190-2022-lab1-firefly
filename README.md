@@ -85,10 +85,9 @@ The sample output interactive test tests is shown as:
 
 # Code  
 
-[**Code: Part3.py**]: Firefly 
 
-[**Code: Part3.py**]: Firefly program
+**Code: Part3.py**: Firefly program
 
-[**Code: Part4.3.py**]: Interact with keyboard to print 'o' and backspace  
+**Code: Part4.3.py**: Interact with keyboard to print 'o' and backspace  
 
-[**Code: Part4.4.py**]: Have fun with the real-time visualizer
+**Code: Part4.4.py**: Have fun with the real-time visualizer
