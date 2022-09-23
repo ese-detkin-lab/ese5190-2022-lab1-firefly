@@ -76,7 +76,9 @@ For this section, a ```countdown``` is used to set the operating time for this a
 
 https://user-images.githubusercontent.com/114244957/192053439-3e262931-612b-473b-bca0-96ef79d7c168.mov
 
-The purpose of this function is to detect color and present its value when instructed. It can be useful when we want to detect a color of a object and record the values in a report. Four gestures are used to present, and modify the result report. Swiping up will ask the sensor to detect the current color and print it to a text-editable software (e.g. Texteditor, Word). Swiping down equals to backspace the line. If we want to delete the entire reading, we can swipe to the left to "undo" (command+Z) the operation. Finally, swiping to the right equals to hitting the Enter key and a new line will start.
+The purpose of this function is to detect color and present its value when instructed. It can be useful when we want to detect a color of a object and record the values in a report. Four gestures are used to present, and modify the result report. 
 
+Swiping up will ask the sensor to detect the current color and print it to a text-editable software (e.g. Texteditor, Word). Swiping down equals to backspace the line. If we want to delete the entire reading, we can swipe to the left to "undo" (command+Z) the operation. Finally, swiping to the right equals to hitting the Enter key and a new line will start.
 
+For now, each swiping gesture will also be printed to the report so that we know that the performed gesture is valid. In future case, the printed strings can be removed to tide up the function.
 
