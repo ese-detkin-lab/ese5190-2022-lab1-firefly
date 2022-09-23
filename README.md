@@ -12,4 +12,9 @@ Just like the example in 4.3, when the light index becomes higher, the slide of 
 
 The following diagram will explain this process vividly.
 
+![a](https://github.com/akiyamask/ese5190-2022-lab1-firefly/blob/main/M()%254KFOA9A03%5D~5GJ%5B%7B~DG.jpg?raw=true)
+
+This is first time to use github and wirte the readme. Please forgive my defect.
+
+KEZHEN YAN
 
