@@ -17,6 +17,8 @@ Use *APDS9960* to detect the light from Firefly on [Youtube](https://www.youtube
 
 Use *APDS9960* to detect the distance and represent it via RGB LED in the *RP2040 board* and my computer screen.
 
+The protocol between APDS 9960 and RP2040 is I2C and the protocol between RP2040 and computer is USB HID protocol. 
+
 
 
 **Rule:**
@@ -29,7 +31,7 @@ Use *APDS9960* to detect the distance and represent it via RGB LED in the *RP204
 
 **Diagram**
 
-![Avatar](./img/Diagram.jpg)
+![Avatar](./img/Diagram.jpeg)
 
 
 
