@@ -17,7 +17,6 @@ Part3:
 Part4:
     4.2 Moving cursor with the brightness change
     ![IMG_9331](https://user-images.githubusercontent.com/105755054/192006781-740d8b2c-ab0e-4124-9f22-f8ff2a2ca1ac.GIF)
-    
     The Cursor will move with the brightness changing, and the value of color_integration_time is set as defult of 255. Additionally, the             thresholds of the clear is 400.
     
     4.3 "O" - SCOPE Video
