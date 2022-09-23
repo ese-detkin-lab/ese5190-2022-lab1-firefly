@@ -14,6 +14,10 @@ The following diagram will explain this process vividly.
 
 ![a](https://github.com/akiyamask/ese5190-2022-lab1-firefly/blob/main/M()%254KFOA9A03%5D~5GJ%5B%7B~DG.jpg?raw=true)
 
+And finally, I added a project of controlling the mouse by gesture in as 4.4.
+
+![a](https://github.com/akiyamask/ese5190-2022-lab1-firefly/blob/main/4.4.gif?raw=true).
+
 This is first time to use github and wirte the readme. Please forgive my defect.
 
 KEZHEN YAN
