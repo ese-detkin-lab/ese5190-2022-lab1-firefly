@@ -10,6 +10,14 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 1. Using the color sensor to detect the value of color intensity at different times
 2. Subtract the value at the previous time from the value at the next time, and define this difference as 'k'
 3. If k>=0, the LED doesn't get bright and if k<0, the LED turns bright
-   the video of the result: 
+   the gif of the result: 
     [link](https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/edit/main/README.md)
 ### question: 
+The board reacts much slower than the firefly
+
+## Lab1 4.4 The display should update in “real time” along with your sensor
+Description: When the sensor senses color, it board will control the keyboard to type the name of this color on the screen.
+1. Find the maximum of each value of each color intensity
+2. Find the color corresponding to the maximum value
+3. The board controls the keyboard to type the name of this color on the screen
+
