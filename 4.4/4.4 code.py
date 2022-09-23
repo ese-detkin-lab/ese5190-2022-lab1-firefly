@@ -20,6 +20,7 @@ apds = APDS9960(i2c)
 apds.enable_color = True
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
+
 while True:
      # wait for color data to be ready
     while not apds.color_data_ready:
@@ -31,11 +32,11 @@ while True:
     print("green: ", g)
     print("blue: ", b)
 
+
     a = [r,g,b]
     x=max(a)
 
     time.sleep(0.1)
-     
     #decide color
     if r == x :
          keyboard.press(Keycode.R)
