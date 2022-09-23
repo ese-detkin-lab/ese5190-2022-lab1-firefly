@@ -47,5 +47,7 @@ Some Images / Gifs from our projects.<br />
 **Printed Diamond**<br />
 ![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Diamond.png)<br />
 
+4.4 3.2 Load this video of an actual firefly on your laptop, go to the closeup of it flashing starting around 6:52, and make the video large. https://youtu.be/BtCGtaMrBXQ?t=413. Point your sensor at the screen, and your board should now flash in sync with the firefly!<br />
 
+**Ans:**<br />
 
