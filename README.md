@@ -1,9 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-    (TODO) YOUR NAME HERE
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
-
-(TODO: Your README)
+    (TODO) Muyuan Sheng 
+          Emali: shmuyuan@seas.upenn.edu 
+   Tested on: (TODO) Legion Y9000 (i7, 2021), windows 11
+   (TODO: Muyuan sheng)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
