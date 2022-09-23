@@ -10,3 +10,4 @@ The primary idea of my 4.4 design mainly utilized the proximity property of the 
 
 
 RP2040 is connected to the PC via USB, and communicates with the sensor APDS9960 using I2C. Once the sensor detects an object approaching, it will send back the value of proximity and then RP2040 will decide what to print based on the proximity received. RP2040 uses keyboard library and object to print specific strings. The connection can be seen from the diagram called zyao_lab1.jpg.
+![a](https://github.com/ZhijingY/ese5190-2022-lab1-firefly/blob/main/zyao_lab1_updated.png)
