@@ -15,7 +15,7 @@ The original code called: firefly.py
 ![IMG_9329](https://user-images.githubusercontent.com/105755054/192004338-217a584d-7f3a-4f73-877c-03b3e5def980.GIF)
 
 
-In this part the 'color_integration_time' has benn set to 40, and the value of the clear channel is choosed to the indicator of Neopixel LED, and within this code 'r = g = b = clear' since we only pay attention to the LED dims and brights.
+In this part the 'color_integration_time' has benn set to 40. The value of the clear channel is choosed to the indicator of Neopixel LED, and within this code 'r = g = b = clear' since we only pay attention to the LED dims and brights.
 
     
 Part4:
