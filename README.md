@@ -34,9 +34,16 @@ update in “real time” along with the sensor.
 
 Then we will see sth like this:(I am just trying to make it longer)
 
-<img width="709" alt="image" src="https://user-images.githubusercontent.com/114169032/191848795-94b733ff-453d-4ec9-83ff-6d534c5e4911.png">
+<div align=center>
+<img src="https://user-images.githubusercontent.com/114169032/191848795-94b733ff-453d-4ec9-83ff-6d534c5e4911.png" width="600">
+</div>
 
-**[4.4gif](https://github.com/Sharonun/ese5190-2022-lab1-firefly/blob/main/4.4.GIF)**
+visualizer gif:
+<div align=center>
+<img src="https://github.com/Sharonun/ese5190-2022-lab1-firefly/blob/main/4.4.GIF" width="600">
+</div>
+
+
 
 - Here's a diagram:
 ![diagram](https://user-images.githubusercontent.com/114169032/191854762-4aab0df6-5c94-432d-8e0f-34c2f679c1ea.png)
