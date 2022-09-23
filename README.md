@@ -15,7 +15,8 @@ Ans:<br />
 ## **Goal:**
     To draw patterns in text editor using light. We will be drawing a diamond using the Red, green and blue colour. Any pattern can be drawn using the code.
 ## **Description:**
-For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cable. A diagram of connection & inteaction.
+For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cable. A diagram of connection & interaction.
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Chart.png)
 
 **Code Description:**
 
