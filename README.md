@@ -10,7 +10,9 @@
 
 - **Analysis**: We need to track the brightness and adjust the output parameter of the led.
 
-**[firefly.gif](https://github.com/Sharonun/ese5190-2022-lab1-firefly/blob/main/3.2.gif)**
+<div align=center>
+<img src="https://github.com/Sharonun/ese5190-2022-lab1-firefly/blob/main/3.2.gif" width="600">
+</div>
  
 ### 4.4 Custom real-time visualizer
 
