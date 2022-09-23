@@ -25,7 +25,10 @@ https://user-images.githubusercontent.com/114244957/192000826-352c51fb-1477-4278
 https://user-images.githubusercontent.com/114244957/192002832-ff3e35bf-002e-4ed1-a88f-a45df752d1ca.mov
 
 We can adjust the sampling rate of the color sensor to alter its sensitivity.
-The function is "apds.color_integration_time" with a range from 1 to 256.
+```python
+apds.color_integration_time = #
+```
+The range is from 1 to 256.
 
 ### The Gesture result is shown below:
 https://user-images.githubusercontent.com/114244957/192003645-10358efb-f69c-49d2-9937-5d7d806beef5.MOV
@@ -49,7 +52,15 @@ The sum of the RGB is chosen even though the light of the firefly is yellow. We 
 
 ### Section 4.2 Change cursor's position according to the change of brightness
 
+https://user-images.githubusercontent.com/114244957/192008665-03610ff3-35b6-4875-a315-2be82404f6b8.mov
 
+The change of light is not stable due to the influence from the ambient light. When we change from cursor to actual "O"-scope, the performace is significently better.
+
+### Section 4.3 "O"-scope
+
+https://user-images.githubusercontent.com/114244957/192009585-8e16aa02-4ae2-436a-bc81-8f75ac29507c.mov
+
+### Section 4.4 RGB Reader with gesture function
 
 
 
