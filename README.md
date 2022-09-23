@@ -11,13 +11,15 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 2. Subtract the value at the previous time from the value at the next time, and define this difference as 'k'
 3. If k>=0, the LED doesn't get bright and if k<0, the LED turns bright
    the gif of the result: 
-    <div align=center>
-< img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker%20firefly.gif >  
+<div align=center>
+<img src="https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker%20firefly.gif" width="420" >  
 </div>
+
 ### The code:
 <div align=center>
 < img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif >  
 </div>
+
 ### question: 
 The board reacts much slower than the firefly
 
@@ -26,13 +28,16 @@ Description: When the sensor senses color, it board will control the keyboard to
 1. Find the maximum of each value of each color intensity
 2. Find the color corresponding to the maximum value
 3. The board controls the keyboard to type the name of this color on the screen
+
 ### The code:
 <div align=center>
 < img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif >  
 </div>
+
 ### The gif of the result: 
-    <div align=center>
+<div align=center>
 < img src=https://github.com/xcyxcyxcyxcy/ese5190-2022-lab1-firefly/blob/main/ezgif.com-gif-maker.gif >  
 </div>
+
 ### question:
 It will type red when there is no specific color close to the sensor.
