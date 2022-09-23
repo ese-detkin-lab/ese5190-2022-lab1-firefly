@@ -1,16 +1,19 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     Yuchen Wang
-        wangyuchen0303@gmail.com
+        LinkedIn: wangyuchen0303@gmail.com
     Tested on: MacBook Pro (14-inch, 2021), macOS Monterey 12.6
 
 Lab#1 Submission:
 
 Part3:
 
-3.2 Firefly Video
+3.2 Firefly 
+
+The original code called: firefly.py
 
 ![IMG_9329](https://user-images.githubusercontent.com/105755054/192004338-217a584d-7f3a-4f73-877c-03b3e5def980.GIF)
+
 
 In this part the 'color_integration_time' has benn set to 40, and the value of the clear channel is choosed to the indicator of Neopixel LED, and within this code 'r = g = b = clear' since we only pay attention to the LED dims and brights.
     
@@ -18,17 +21,23 @@ Part4:
 
 4.2 Moving cursor with the brightness changing
 
+The original code called: Mouse.py
+
 ![IMG_9331](https://user-images.githubusercontent.com/105755054/192006781-740d8b2c-ab0e-4124-9f22-f8ff2a2ca1ac.GIF)
 
 The Cursor will move with the brightness changing, and the value of color_integration_time is set as defult of 255. Additionally, the thresholds of the clear is 400.
  
 4.3 "O" - SCOPE Video
 
+The original code called: OandSpace.py
+
 ![IMG_9333](https://user-images.githubusercontent.com/105755054/192009163-2ffd2810-7859-4c7c-9d18-a0c00a728716.GIF)
     
 In this part, the color_integration_time has been set to 10 for more sensitive. To be more spcific, for comparing the differences between the brightness, I called the function called 'get_brightness' twice and a 0.1s delay between them to get the brightness differences.
     
 4.4 Personal Project
+
+The original code called: P4personal_demo.py
     
 GIF of 4.4:
 
