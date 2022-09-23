@@ -36,6 +36,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 - While all of the above steps are running, simulataneously we are also checking if the user waves their hand, leftwards or rightwards
     (i.e. the gesture sensor returns `4` or `3`) on the sensor. This action is encoded to *quit* the program, and hence the execution stops.
 
+## Flow Diagram
+![](/assets/Diagram.png)
+
 ## GIFs
 
 ### Firefly
