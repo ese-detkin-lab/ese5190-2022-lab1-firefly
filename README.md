@@ -18,6 +18,9 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 - This program takes in the brightness values from the *APDS9960* and scales it down from a range of *0 - 65536* to *0 - 255*.
 - The scaling is done to pass the brightness value to the *blue* LED, on the *RP2040*.
+- Also, the `color_integration_time` property is tweaked to decrease the number of samples for each reading, which decreases the time between
+    two sensor readings, and hence provides a faster response, although this does reduce the accuracy of the readings a bit, and that is a trade-off
+    which needs to be worked with, based on the desired result.
 - Depending on the brightness, the LED changes from a dimmed state to a bright state, and vice-versa.
 - Finally, when the firefly video is played in front of the sensor, the LED replicates the changes observed in the video.
 
@@ -37,8 +40,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 ### Firefly
 
-![Firefly](/assets/firefly.gif)
+![](/assets/firefly.gif)
 
 ### Keyboard Emulator
 
-![](/assets/Lab1_Q4.gif)
+![](/assets/Q4_LAB1.gif)
