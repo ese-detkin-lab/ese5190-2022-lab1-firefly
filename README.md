@@ -10,14 +10,15 @@ Include lab questions, screenshots, analysis, etc. (Remember, this is public, so
 
 4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.
 Ans:
-#**A Color - Based Keyboard Device for an Interactive Computer System**
+# **A Color - Based Keyboard Device for an Interactive Computer System**
 
-##**Goal:**
+## **Goal:**
     To draw patterns in text editor using light. We will be drawing a diamond using the Red, green and blue colour. Any pattern can be drawn using the code.
-##**Description:**
+## **Description:**
 For the project the major components used: RP2040, APDS 9960 & JST SH 4-Pin Cable. A diagram of connection & inteaction.
 
 **Code Description:**
+
 1.	We have to import all the necessary libraries for using APDS 9960 for colour and brightness detection as well as for using RP2040 as an HID (Keyboard). 
 2.	All necessary code for this project is provided.
 3.	We use variable "a", "g", "b" & "c" for the Red, Green, Blue and Clear(Brightness) value, respectively.
