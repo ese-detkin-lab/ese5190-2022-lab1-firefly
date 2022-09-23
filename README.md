@@ -89,6 +89,15 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
             keyboard.release_all()
 
 
+Our code principle:
+We designed a game that can be controlled by gesture and brightness: find the letter “Q” mixed with a bunch of letter “O” and replace them with the letter “O”. When the brightness reaches the lowest step we send a ‘backspace’ command, and when the brightness reaches the highest step we type the letter “o”. This is how we replace the letter “Q” with the letter “O”. If you want to quit this game, just let the sensor sense the lowest step of brightness for five seconds and then you can quit.
+
+First, we create some objects and variables to be used. We know that the range of clear values (i.e. variable c) is 0-10241, so we map the c-range to 0-1000 to facilitate subsequent condition judgment. When everything is ready it will print "Game Start!".
+
+In the main loop, we first get the real time values of r, g, b and c, then determine whether the brightness has reached the highest step (steps(c)=1000) or the lowest step (steps(c)=0). When the brightness reaches the highest step we type the letter “o”. When the brightness reaches the lowest step, we first use a “for” loop to determine if the time to reach the lowest order of brightness is enough for five seconds, if not then jump out of the “for” loop and send a ‘backspace’ command, if yes then we jump out of the main loop to end the game. Afterwards we detect the gesture and send the corresponding command to control the cursor up, down, left and right. Besides, the display can update in “real time” along with your sensor by print corresponding strings, so we can know the spirit of the current operation through the serial port.
+
+
+
 ![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/schematic%20diagram.jpg)
 
 ![image](https://github.com/AngLi-00/ese5190-2022-lab1-firefly/blob/1962d36c4e6b97844f0391fcda429ba582b27104/Function%20clarity.jpg)
