@@ -4,9 +4,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
         LinkedIn: https://www.linkedin.com/in/satyajeet-das/
     Tested on:DELL Inspiron 16 Plus (16-inch, 2022), Windows 11 Home 21H2
 
-(TODO: Your README)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
 4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.<br />
 Ans:<br />
@@ -41,6 +39,12 @@ So the major operations being:<br />
 **Darkness / Low Brightness -> QUITS Program**<br />
 
 Some Images / Gifs from our projects.
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4_Gif_1.gif)
+**We quit as their is darkness**
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Quit%20Photo.jpg)
+**Printed Diamond**
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Diamond.png)
 
 
 
