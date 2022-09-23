@@ -23,7 +23,6 @@ sensor.enable_gesture = True
 sensor.color_integration_time = 50
 
 # The Keycode sent for each button, will be paired with a control key
-keys_pressed = [Keycode.O]
 control_key = Keycode.BACKSPACE
 
 # The keyboard object!
@@ -39,7 +38,7 @@ while True:
     c_255 = (c/65536) * 255
 
     # Print the Current Brightness Value
-    print("Brighness Value : " ,c_255)
+    print("Brightness Value : " ,c_255)
     
     if c_255 >=0 and c_255 < 100: # If the brightness value is less than 100
         keyboard_layout.write("This is very Dim!!\n")  # ...Print the string
