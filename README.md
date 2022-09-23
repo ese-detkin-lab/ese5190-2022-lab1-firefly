@@ -38,7 +38,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     (i.e. the gesture sensor returns `4` or `3`) on the sensor. This action is encoded to *quit* the program, and hence the execution stops.
     
  ### Flow Diagram
- ![](/Assets/Diagram.gif)
+ ![](/Assets/Diagram.png)
 
 ## GIFs
 
