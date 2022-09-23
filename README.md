@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
     (TODO) XUANANG CHEN
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: (TODO) MacBook Pro (14-inch, 2021), macOS Monterey 12.5.1
+        (TODO) twitter: tlsnakanomiku@gmail.com
+    Tested on: (TODO) DESKTOP-40O5U54, Windows10 version 21H1
 
 (TODO: Your README)
 
