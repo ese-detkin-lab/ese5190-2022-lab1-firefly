@@ -60,9 +60,19 @@ The change of light is not stable due to the influence from the ambient light. W
 
 https://user-images.githubusercontent.com/114244957/192009585-8e16aa02-4ae2-436a-bc81-8f75ac29507c.mov
 
+The readings from the sensor is fast. In order to have sufficient time to detect color change, the most current color and the color four samples away it are chosen for comparison. When there is no change in brightness, there will be no operations. 
 
+Remeber to 
+```python
+keyboard.release_all()
+```
+after each press control.
+
+I found it also helpful to include a initiating time (usually 1sec) for the laptop to setup the keyboard and Adafruit9960.
 
 ### Section 4.4 RGB Reader with gesture function
+
+https://user-images.githubusercontent.com/114244957/192053439-3e262931-612b-473b-bca0-96ef79d7c168.mov
 
 
 
