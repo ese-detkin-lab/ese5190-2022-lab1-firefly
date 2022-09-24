@@ -41,5 +41,8 @@ laptop this can make it quite annoying to reprogram. So, there needs to be a way
 
 Code snippet for implementing this:
 
+<img src="https://user-images.githubusercontent.com/114099174/192076806-79e80ac4-b325-462f-bedb-3dae83aab45d.png" width="700" height="700">
+
+
 
 
