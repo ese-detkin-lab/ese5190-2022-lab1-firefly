@@ -5,3 +5,5 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     Tested on: Asus ROG Flow X13, Windows 11
 
 Firefly 3.2 GIF: https://github.com/Praveen-Raj-u-s/ese5190-2022-lab1-firefly/blob/main/Firefly%203.2.gif
+
+Visualizer 4.4 GIF: https://github.com/Praveen-Raj-u-s/ese5190-2022-lab1-firefly/blob/main/Visuzlizer%204.4%20_Compressed.gif
