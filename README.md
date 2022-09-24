@@ -7,16 +7,16 @@ Tested on: (TODO) Lenovo Legion 5 AMD Ryzen 7 (15-inch, 2022), Windows 11
 Lab 1: Sushrut Salil Thakur worked with Juilee Samir Kotnis 
 # ESE-5190-lab
 
-Proximity - 
+Proximity code - 
 
-The components used for this experiment are RP2040 microcontroller and APDS9960 sensor board. The aim of this experiment was to print the proximity being sensed by the APDS9960 sensor board on our monitor. With respect to the attached GIF, it can be seen that the APDS9960 sensor board measures the distance of the hand from the sensor with 8 bit resolution. When the hand is very close to the sensor, proximity reading is observed to be 255 which is the maximum ADC count. As the hand moves away from the sensor, the proximity reading decreases.
+The components used for this experiment are RP2040 microcontroller and APDS9960 sensor board. The goal of this experiment was to print the proximity being sensed by the APDS9960 sensor board on our serial monitor. The attached GIF shows  that the APDS9960 sensor board measures the distance of the hand from the sensor with 8 bit ADC resolution. When the hand is very close to the sensor, proximity reading is observed to be 255 which is the maximum ADC count. As the hand moves away from the sensor, the proximity reading varies. 
 
 ![](https://github.com/sushrut-upenn/ESE-5190-lab/blob/main/proximity.gif)
 
 
-Firefly - 
+Firefly code- 
 
-The components used for this experiment are RP2040 microcontroller and APDS9960 sensor board. The aim of this experiment was to turn on the LED on RP2040 when the APDS9960 color sensor senses bright light and turn off the LED when there is no bright light falling on the LED thus enabling the blinking of the LED. With respect to the attached video and GIF, it can be seen that the Color and ALS detection feature of RP2040 provides data regarding Red, Blue, Green and Clear light intensity. We set a threshold value for the clear light and when the light source was flashed at the sensor, the serial monitor printed the data for Red, Blue, Green and Clear light and the LED on RP2040 turned on. When the light source was dimmed and could not cross the threshold, the monitor printed data for Red , Blue, Green and Clear light which were lesser than the previously printed values thus showing a difference in the intensity and the LED on RP2040 was also turned off. This behavior of the LED mimics the behavior of a Firefly.
+The components used for this were RP2040 microcontroller and APDS9960 sensor board. The goal experiment was to turn on the LED on RP2040 when the APDS9960 color sensor senses bright light and turn off the LED when there is no bright light falling on the LED thus enabling the blinking of the LED. With respect to the attached video and GIF, it can be seen that the Color and ALS detection feature of RP2040 provides data regarding Red, Blue, Green and Clear light intensity. We set a threshold value for the clear light and when the light source was flashed at the sensor, the serial monitor printed the data for Red, Blue, Green and Clear light and the LED on RP2040 turned on. When the light source was dimmed and could not cross the threshold, the monitor printed data for Red , Blue, Green and Clear light which were lesser than the previously printed values thus showing a difference in the intensity and the LED on RP2040 was also turned off. This behavior of the LED mimics the behavior of a Firefly.
 
 ![](https://github.com/sushrut-upenn/ESE-5190-lab/blob/main/Firefly.gif)
 
