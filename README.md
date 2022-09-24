@@ -23,7 +23,7 @@ The brightness of the LED of RP2040 will change based on the 'clear' value of th
 ### Part 4:
 #### 4.2 Mouse cursor moving horizontally based on the APDS9960's latest brightness reading
 Overview:
-Mouse cursor will move to the left in strong light, and will move to right in the dark. In the natural environment, mouse cursor does not move.
+Mouse cursor will move to the left in strong light, and will move to right in the dark. In the natural environment, mouse cursor does not move. To be specifical, when the 'clear' value of the brightness is over 45000, the mouse cursor will move forward left. When the 'clear' value of the brightness is less than 1000, the mouse cursor will move forward right. If the 'clear' value of the brightness is between 1000 and 45000, the mouse cursor won't move. 
 
 ![c8ff7edb94fa2a0d9bdd6cb299f7566c](https://user-images.githubusercontent.com/114255407/192070838-a9bff96e-85b6-429e-9dee-ea1918d3adf6.gif)
 
