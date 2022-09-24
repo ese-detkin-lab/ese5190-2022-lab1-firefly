@@ -1,8 +1,10 @@
-# ESE519-Lab1
+# University of Pennsylvania
 
-## Team 
+# ESE5190: Intro to Embedded Systems
 
-Yizhe Wang & Minghui Ni
+# Lab1
+
+Minghui Ni
 
 [Minghui's LinkedIn Profile](https://www.linkedin.com/in/minghui-ni/)
 
