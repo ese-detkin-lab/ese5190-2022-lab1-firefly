@@ -10,6 +10,7 @@ Welcome to README of ESE 5190 Lab 1 - Firefly. In this lab, the primary objectiv
 Part 1-3 mainly served as introductory blocks for [CircuitPython](https://learn.adafruit.com/adafruit-qt-py-2040/circuitpython) firmware setup, blinking on-board Neopixel LED and reading sensor values.
 <h3>Section 3.2 - Firefly</h3>
 In this section, we were supposed to mimic a [firefly](https://youtu.be/BtCGtaMrBXQ?t=413) by changing the NeoPixel's brightness in accordance to that of the firefly. For this we:-
+
     1. Imported the python libraries to read sensor data through the I2C channel.
     2. Once we received the values of r, g, b and c, we found out that the range was [0, 65535] in increasing order of intensity for each color and clear segments.
     3. Since the brightness range was from [0, 1], we decided to normalize the 'c' value by dividing it by 65535. This normalized value would then be mapped on a scale of [0, 255] as that's the range over which a pixel value is observed.
