@@ -37,4 +37,7 @@ laptop this can make it quite annoying to reprogram. So, there needs to be a way
 
 <br />
 
+![real_time_visualizer](https://user-images.githubusercontent.com/114099174/192076211-7a4b6884-7763-4f30-9867-19a6dc39a080.gif)
+
+
 
