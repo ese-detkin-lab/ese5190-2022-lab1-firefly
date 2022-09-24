@@ -1,8 +1,8 @@
 <h1>University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1</h1>
 
 <h4>JOYENDRA ROY BISWAS</h4>
-[Website](https://joyendra.github.io/)
-[LinkedIn](https://www.linkedin.com/in/joyendra-roy-biswas/)
+[Website](https://joyendra.github.io)
+[LinkedIn](https://www.linkedin.com/in/joyendra-roy-biswas)
 Tested on: Lenovo Ideapad 320, Windows 10
 
 <h4> README </h4>
