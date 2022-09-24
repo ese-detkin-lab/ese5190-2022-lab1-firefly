@@ -29,7 +29,10 @@ Below is the snippet of the code:
 <br />
 <br />
 <br />
-Code can also be found at: [Firefly](https://www.linkedin.com/in/dvisha-bakarania-9370b2146?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNtJBfZpDTEKluhukjP7uqg%3D%3D)
+Code can also be found at: [Firefly](https://github.com/dvishab/ese5190-2022-lab1-firefly/blob/3a8a65675cf863e95c0b865e0bfb4c73537ea037/Firefly.py)
+<br />
+<br />
+<br />
 Up-next is the implementation of a **real-time visualizer** using keyboard emulator to get real time update of the detected sensor data. This can be done using HID keyboard library. The intention here is to get a real time update of any change in brightness level as sensed by the APDS9600. 
 <br />
 We will be using two keys: 'O' and 'Backspace' to indicate any change at the input to the sensor. As and when there is an increase in the brightness level at the input to the sensor, any text editor in your laptop should start typing 'O's. If the brightness at the sensor input decreases then the 'Backspace' key should come into action and start erasing the 'O's so that the user is updated of the change(increase/decrease) at the sensor input. This can be done by adjusting the threshold so that an increase in brightness leads to typing 'O' and decrease leads to the erasing of 'O's using Backspace.
