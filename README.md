@@ -39,8 +39,9 @@ LAB1_SEC4.4
         3.Result:
      1) for rainbow light control:
 ![4.4_light_control](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/bed58742ed3d488aa72477110a7950b255d9995f/4.4_light_control.gif)
-
-    2) for arrow control
+![right](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/f3563cf4f9b531c1ae3812972201980d2af75d54/right.jpg)
+![left](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/f3563cf4f9b531c1ae3812972201980d2af75d54/left.jpg)
+     2) for arrow control
 ![4.4_mouse arrow move](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/bed58742ed3d488aa72477110a7950b255d9995f/4.4_mouse%20arrow%20move.gif)
   
 
