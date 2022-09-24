@@ -25,12 +25,12 @@ Note: Delay is given before the start of the loop so that , keyboard does not st
 
 
 Exercise 4.4
-This functionality is build by incorporating the features of keyboard hid library and the color sensor reading of brightness. The output data of the sensor is between 0 and 65535. This is not in pure readable format for the end user. So, we compartmentlised the data into different ranges , with each range having its keyword. So, the levels are {Dim, Bright, Brighter, Brightest, Burnt Retinas}. In this fucntionality, as the torch comes closer to the sensor, more light it detects, and highrer the reading it gives. 
+This functionality is build by incorporating the features of keyboard hid library and the color sensor reading of brightness. The output data of the sensor is between 0 and 65535. This is not in pure readable format for the end user. So, we compartmentlised the data into different ranges , with each range having its keyword. So, the levels are {Dim, Bright, Brighter, Brightest, Burnt Retinas}. In this fucntionality, as the torch comes closer to the sensor, more light it detects, higher the reading it gives. 
 Following is the Implementation:
 1) The value of 'c' from the color sensor is read. 
 2) "If" conditions are used to test, which range the value lies in.
-3) The value of c is mapped on the range of 0:255. Ths enables us to control intensity on-board led as the light source moves closer, the led burns brightly.
-4) The message is printed using keyboard hid library based on the range value lies in. 
+3) The value of c is mapped on the range of 0:255. Ths enables us to control intensity of on-board led.As the light source moves closer, the led burns brightly.
+4) The message is printed using keyboard hid library based on the range value lies in notepad. 
 
 
 ![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/af1bcd53eb6120af14c140063eb2b53dcf6f92ab/4.4%20diagram.png)
