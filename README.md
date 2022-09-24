@@ -50,11 +50,16 @@ So the major operations being:<br />
 ![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4%202-2n.gif)<br />
 
 <br />
+
 **We quit as their is darkness**<br />
+
 ![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Quit%20Photo.jpg)<br />
+
 **Printed Diamond**<br />
 <br />
+
 ![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Diamond.png)<br />
+
 <br />
 3.2 Load this video of an actual firefly on your laptop, go to the closeup of it flashing starting around 6:52, and make the video large. https://youtu.be/BtCGtaMrBXQ?t=413. Point your sensor at the screen, and your board should now flash in sync with the firefly!<br />
 
