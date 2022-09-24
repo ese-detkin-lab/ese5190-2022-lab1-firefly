@@ -18,7 +18,7 @@ while True:
     
 So when the brightness is higher, the LED would blink.
 This is the GIF for demonstration:
-![Alt text](firefly.gif) / ![](firefly.gif)
+![Alt text](firefly.gif) 
 
 For my 4.4 section I make a light detector, which means the keyboard will print relative messages according to the brightness. 
 In the code, I set different keys for the keyboard:
