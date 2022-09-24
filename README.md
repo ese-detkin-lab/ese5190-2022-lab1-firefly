@@ -2,7 +2,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
 Aamir Abbas Khambaty Worked with: Shantanu Sampath
 
-https://www.linkedin.com/in/shantanu-sampath/ Tested on: HP 17 Windows 11
+https://www.linkedin.com/in/aamir-khambaty-7807a11a4/
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
