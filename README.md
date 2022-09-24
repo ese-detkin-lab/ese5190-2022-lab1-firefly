@@ -29,5 +29,7 @@ key3="My eyes!!!My eyes!!!!?\n"
 
 
 So in the while loop I will make the chip detect the brightness, and keyboard will type messages according to the brightness(for example, "So dark! I am so scare" when brightness is very low). 
+This is the demonstration:
+![Alt text](section4_4.gif)
 
 
