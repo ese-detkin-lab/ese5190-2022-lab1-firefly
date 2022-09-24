@@ -18,7 +18,8 @@ Note: Delay is given before the start of the loop so that , keyboard does not st
 
 
 
-![6ui0kc](https://user-images.githubusercontent.com/23244847/192072503-fa8c7eca-96d4-4299-8c91-8645bda4ec42.gif)
+
+![6ui0kc](https://user-images.githubusercontent.com/23244847/192072546-bd10a614-ab46-4ffb-a40a-69ce3d11e5ca.gif)
 
 
 
