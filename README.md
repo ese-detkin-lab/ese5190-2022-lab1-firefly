@@ -22,6 +22,7 @@ Below is the snippet of the code:
 <img src="https://user-images.githubusercontent.com/114099174/192073633-bc447baf-d8e6-4d60-b762-73fb8102b8e6.png" width="700" height="700">
 <br />
 <br />
+<br />
 ![firefly](https://user-images.githubusercontent.com/114099174/192074256-795b89fb-5ea0-4ec2-806f-01ca170b0bf9.gif)
 <br />
 <br />
@@ -38,7 +39,9 @@ laptop this can make it quite annoying to reprogram. So, there needs to be a way
 <br />
 
 ![real_time_visualizer](https://user-images.githubusercontent.com/114099174/192076211-7a4b6884-7763-4f30-9867-19a6dc39a080.gif)
-
+<br />
+<br />
+<br />
 Code snippet for implementing this:
 
 <img src="https://user-images.githubusercontent.com/114099174/192076806-79e80ac4-b325-462f-bedb-3dae83aab45d.png" width="700" height="700">
