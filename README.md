@@ -11,7 +11,7 @@ The functionality is implemented in following:
 1) The color sensor is evoked and data is read from it. There are 4 channels of data available from the onboard color sensor. They are 'r', 'g' , 'b' and 'c'. The brightness reading is given in 'c'. 
 2) The vaue of c ranges from 0 to 65535. This is too large for the pixel range. so , we map the entire range of c over 255 unique values. This value will be used to control the brightness of the led. Following formula is used: 
                                         p = (c/65535)*255
-3) The 'p' variabe is used as function argument of pixel.fill(arg,arg,arg) function.
+3) The 'p' variable is used as function argument of pixel.fill(arg,arg,arg) function.
 4) The readings of c is read in the environment and threshold on when to switch on the led is taken. 
 5) If the value of sensor is greater than threshold, led is switch on other off.
 Note: Delay is given before the start of the loop so that , keyboard does not start immediately printing on the code itself
