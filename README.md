@@ -32,4 +32,7 @@ So in the while loop I will make the chip detect the brightness, and keyboard wi
 This is the demonstration:
 ![Alt text](section4_4.gif)
 
+To deconstrate the connection between APDS9960, RPS2040, laptop and me, I drawed a picture to demonstrate:
+<img width="769" alt="image" src="https://user-images.githubusercontent.com/58932929/192072873-c08992a2-b1d2-4325-8182-dde4e1ec49b4.png">
 
+First the laptop send the code to RP2040 and RP2040 process and give the direction to the APDS9960. APDS9960 would use the sensor and send the gathering information(brightness), and I have the control to make it gather the ceration information(brighter or dimmer), to the RP2040, so that RP2040 can react to the information according to the code. 
