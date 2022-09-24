@@ -41,7 +41,14 @@ So the major operations being:<br />
 
 ###**Some Images / Gifs from our projects:**<br />
 
-![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4_Gif_1.gif)<br />
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4%201-1.gif)<br />
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4%201-2.gif)<br />
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4%202-1.gif)<br />
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/4.4%202-2n.gif)<br />
+
 <br />
 **We quit as their is darkness**<br />
 ![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%204.4/Quit%20Photo.jpg)<br />
@@ -52,5 +59,8 @@ So the major operations being:<br />
 3.2 Load this video of an actual firefly on your laptop, go to the closeup of it flashing starting around 6:52, and make the video large. https://youtu.be/BtCGtaMrBXQ?t=413. Point your sensor at the screen, and your board should now flash in sync with the firefly!<br />
 
 **Ans:**<br />
-![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%203.2/PXL_20220923_183542562__1__AdobeExpress.gif)
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%203.2/3.2%20P-1.gif)<br />
+
+![alt text](https://github.com/satyajeetburla/ese5190-2022-lab1-firefly/blob/main/Section%203.2/3.2%20P-2.gif)<br />
 
