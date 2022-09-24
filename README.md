@@ -1,9 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 
-    SATYAJEET DAS
-        LinkedIn: https://www.linkedin.com/in/satyajeet-das/
-    Tested on:DELL Inspiron 16 Plus (16-inch, 2022), Windows 11 Home 21H2
-
+    SOUMYA RANJAN DASH
+        LinkedIn: https://www.linkedin.com/in/srd00/
+    Tested on:DELL Inspiron 14 7420 2-in-1 (14-inch, 2022), Windows 11
 
 
 4.4 Now that you can send any keyboard commands you want to a text display on your laptop, make your own custom real-time visualizer.Have fun with this! Use whatever sensor data you like, and display it however you like. The only requirement is that the display should update in “real time” along with your sensor.<br />
