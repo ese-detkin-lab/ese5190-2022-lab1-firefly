@@ -17,7 +17,7 @@ The functionality is implemented in following:
 Note: Delay is given before the start of the loop so that , keyboard does not start immediately printing on the code itself
 
 
-insert gif////////////////////////////////////////////////////
+![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/9b97d0c6417f98172d9c17d5800e8cf4448a27ca/firefly.mp4)
 
 Exercise 4.4
 This functionality is build by incorporating the features of keyboard hid library and the color sensor reading of brightness. The output data of the sensor is between 0 and 65535. This is not in pure readable format for the end user. So, we compartmentlised the data into different ranges , with each range having its keyword. So, the levels are {Dim, Bright, Brighter, Brightest, Burnt Retinas}. In this fucntionality, as the torch comes closer to the sensor, more light it detects, and highrer the reading it gives. 
@@ -27,7 +27,8 @@ Following is the Implementation:
 3) The value of c is mapped on the range of 0:255. Ths enables us to control intensity on-board led as the light source moves closer, the led burns brightly.
 4) The message is printed using keyboard hid library based on the range value lies in. 
 
-//////////////////////////insert gif
+
 ![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/af1bcd53eb6120af14c140063eb2b53dcf6f92ab/4.4%20diagram.png)
+![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/9b97d0c6417f98172d9c17d5800e8cf4448a27ca/Brightness%20Parameter.mp4)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
