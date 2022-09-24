@@ -10,7 +10,11 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 - Depending on the intensity of te light from the Firefly video, the r, g, b and c values keep changing in real time, which is visible on the MU editor. 
 - The LED on RP 2040 replicates the light from the video, and changes the brightness of the LED in real-time.
 
+<br>
+
 ![](/Media/Arnav_Gadre_Firefly.gif)
+
+<br>
 
 ## Keyboard Emulator
 
@@ -19,4 +23,14 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
 - When the nrightness is low, the letter 'a' is being printed on the Word file. When the brightness is high (after exposing the APDS 9960 to the phone flashlight), we call the backspace function, so the typed letters get deleted.
 - All these changes are happening in real-time, as is evident from the video.
 
-![](/Media/Arnav_Gadre_Keyboard_Emualtor.gif)
+<br>
+<br>
+
+![](/Media/Embedded_1.png)
+
+<br>
+<br>
+
+
+![](/Media/Arnav_Gadre_Keyboard_Emulator.gif)
+
