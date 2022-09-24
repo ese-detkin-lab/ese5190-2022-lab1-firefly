@@ -17,7 +17,7 @@ Link to GIF:
 https://github.com/koushik-sss/ese5190-2022-lab1-firefly-sai/raw/main/GIFs/CustomVisualizer.gif
 ----
 
-### 4.4: Custom Visualizer
+### 4.4: Custom Visualizer (KeyBoard_4.4 folder)
 ![BLOCK DIAGRAM](https://user-images.githubusercontent.com/64246696/192074022-b836bd6d-0250-4ef9-8798-abe9d57f3f29.png)
 
 The user adjusts the ambient brightness levels, which are identified by the photo-sensor, which transmits these values over the I2C interface via the stemma cable. The RP 2040 then compares the brightness levels and determines the keystrokes, which are passed to the computer via the USB-HID interface. These changes can then be observed on the text editor.
