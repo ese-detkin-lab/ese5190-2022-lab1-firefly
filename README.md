@@ -4,9 +4,8 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
        haolyou@seas.upenn.edu
     Tested on: ROG Zephyrus (16-inch, 2022), Windows 11
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
 
-3.2 ADPS 9960 senses the change in brightness of the external light, and reflects the change on RP 2040.
+3.2 ADPS 9960 senses the change in brightness of the external light, and reflects the change on RP 2040. I tested its performance using the YouTube video provided by the professor and found that it works well as shown below.
 
 Actual experimental effect
 
@@ -23,7 +22,7 @@ Actual experimental effect
 ![a](https://github.com/HaoliangYou/ese5190-2022-lab1-firefly/blob/main/4.3.gif)
 
 
-4.4 On the basis of the above experiments， for more creations, we can use the proximity, direction, etc. I use the direction monitoring function myself. I use the "keyboard" to output the detected direction, and based on the current ambient light intensity, the RP2040 outputs the corresponding light of different colors.
+4.4 On the basis of the above experiments, for more creations, we can use the proximity, direction, etc. I use the direction monitoring function myself. The "keyboard" will output the detected direction. Based on the current ambient light intensity and the direction recognized by APDS 9960, the RP2040 outputs the corresponding light of different colors.
 
 Diagram of this system
 
