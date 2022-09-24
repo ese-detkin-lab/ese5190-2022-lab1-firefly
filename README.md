@@ -12,7 +12,7 @@ The firefly visualizer from 3.2 uses the RGB sensor which returns the light's R,
 
 For 4.4, I designed a real-time visualizer using RGB sensor and LED. The program first read the light's color and return rgb values, then the LED will show the same color sensor detected, and the test displayer will output the largest value among three colors. The test result is shown as following.
 
-![rgb_AdobeExpress](https://user-images.githubusercontent.com/43904091/192077974-05f6d2e4-9393-4dfe-a4e1-a800f2c7f306.gif)
+![rgb_AdobeExpress (1)](https://user-images.githubusercontent.com/43904091/192078767-55f9e5d7-4799-428c-8979-2ad2f035a9ff.gif)
 
 The diagram of my embedded system includes:
 
