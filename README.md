@@ -1,8 +1,8 @@
 University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
-
-    Dvisha Kishore Bakarania
-        (TODO) LinkedIn, personal website, twitter, etc.
-    Tested on: 
+ 
+ Dvisha Kishore Bakarania
+ LinkedIn: https://www.linkedin.com/in/dvisha-bakarania-9370b2146?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNtJBfZpDTEKluhukjP7uqg%3D%3D
+ Tested on: Windows 11 Home Version 21H2
 
 **Adafruit QT Py RP2040** and **Adafruit APDS9960 Proximity, Light, RGB, and Gesture Sensor** when come together, can help newbies create their own cool embedded system projects. Let's start! This project uses the sensor data (color, proximity, brightness) to implement a "firefly" and a custom real-time visualizer. All you will need is an Adafruit dev board with RP2040 and a sensor.
 
