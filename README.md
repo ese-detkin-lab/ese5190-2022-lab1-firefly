@@ -37,4 +37,3 @@ Following is the Implementation:
 
 ![6ui10p](https://user-images.githubusercontent.com/23244847/192072772-a9eca0bd-1056-4816-8980-1459cda44721.gif)
 
-Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
