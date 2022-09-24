@@ -1,4 +1,4 @@
-University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
+<h1>University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1</h1>
 
 <h4>JOYENDRA ROY BISWAS</h4>
 [Website](https://joyendra.github.io/)
