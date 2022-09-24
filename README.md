@@ -5,7 +5,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
     Tested on: Dell Inspiron 14 5410, 11th Gen Intel Core i5-113,x64-based PC
 LAB1_SEC3__FireFly 
         1.the experimental result:
-![Firefly](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/raw/main/firefly.gif)
+![Firefly](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/main/firefly.gif)
     The build-in LED brightness of RP2040 will change synchronously according to the external brightness detected by the APDS9960.
         2.Gain: 
     I learned how to convert the brightness value of external light(which is 0-65535 for APDS9960) to the light value that is used to control the brightness of build-in LED in the RP2040. A higher value means a higher light density.
@@ -22,7 +22,8 @@ LAB1_SEC4.4
 ![Left_Right_gesture](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/595e70c546ee0b2c20d5ae1cc58aa1b2f03dff7a/Left_Right_gesture.gif) 
     
     2)color sensor
-    The color sensor is used to detect the external brightness and change the brightness of the rainbow light show correspondingly.(gif attached)
+    The color sensor is used to detect the external brightness and change the brightness of the rainbow light show correspondingly.
+![Color_control](https://github.com/23qiaoqiaoo/ese5190-2022-lab1-firefly_Qiao/blob/6d34310b3f8e910ca982e1fc4f8acae3dbef5447/Color_control.gif)
 
 
 
