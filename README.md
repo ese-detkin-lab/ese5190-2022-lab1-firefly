@@ -30,4 +30,11 @@ Up-next is the implementation of a **real-time visualizer** using keyboard emula
 <br />
 We will be using two keys: 'O' and 'Backspace' to indicate any change at the input to the sensor. As and when there is an increase in the brightness level at the input to the sensor, any text editor in your laptop should start typing 'O's. If the brightness at the sensor input decreases then the 'Backspace' key should come into action and start erasing the 'O's so that the user is updated of the change(increase/decrease) at the sensor input. This can be done by adjusting the threshold so that an increase in brightness leads to typing 'O' and decrease leads to the erasing of 'O's using Backspace.
 
+<img src="https://user-images.githubusercontent.com/114099174/192075855-50a8592a-ec6e-4c09-8542-c984ea2ff543.png">
+
+Also, one important point to note here is that you might probably be using a keyboard to program your RP2040, so if the RP2040 is also sending keystrokes to the 
+laptop this can make it quite annoying to reprogram. So, there needs to be a way to stop it from endlessly writing the letter'O' and that is to use an 'escape hatch'. The intention here is to make the system braek out of the main loop on sensing a partivular color. We will be using 'blue' color. So, if I need to stop the program from endlessly writing, I should point my sensor to a 'blue' color and it will break from the main loop as illustrated through the gif below:
+
+<br />
+
 
