@@ -35,6 +35,6 @@ Following is the Implementation:
 
 ![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/af1bcd53eb6120af14c140063eb2b53dcf6f92ab/4.4%20diagram.png)
 
-![6ui0kc](https://user-images.githubusercontent.com/23244847/192072730-5a481252-ba33-424b-a03a-f0e5fa860033.gif)
+![6ui10p](https://user-images.githubusercontent.com/23244847/192072772-a9eca0bd-1056-4816-8980-1459cda44721.gif)
 
 Include lab questions, screenshots, analysis, etc. (Remember, this is public, so don't put anything here you don't want to share with the world.)
