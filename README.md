@@ -33,11 +33,13 @@ We will be using two keys: 'O' and 'Backspace' to indicate any change at the inp
 <img src="https://user-images.githubusercontent.com/114099174/192075855-50a8592a-ec6e-4c09-8542-c984ea2ff543.png">
 
 Also, one important point to note here is that you might probably be using a keyboard to program your RP2040, so if the RP2040 is also sending keystrokes to the 
-laptop this can make it quite annoying to reprogram. So, there needs to be a way to stop it from endlessly writing the letter'O' and that is to use an 'escape hatch'. The intention here is to make the system braek out of the main loop on sensing a partivular color. We will be using 'blue' color. So, if I need to stop the program from endlessly writing, I should point my sensor to a 'blue' color and it will break from the main loop as illustrated through the gif below:
+laptop this can make it quite annoying to reprogram. So, there needs to be a way to stop it from endlessly writing the letter'O' or erasing, and that is to use an 'escape hatch'. The intention here is to make the system braek out of the main loop on sensing a partivular color. We will be using 'blue' color. So, if I need to stop the program from endlessly writing/erasing, I should point my sensor to 'blue' color and it will break from the main loop as illustrated through the gif below:
 
 <br />
 
 ![real_time_visualizer](https://user-images.githubusercontent.com/114099174/192076211-7a4b6884-7763-4f30-9867-19a6dc39a080.gif)
+
+Code snippet for implementing this:
 
 
 
