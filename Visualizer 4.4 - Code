@@ -1,0 +1,67 @@
+import time
+
+import board
+import digitalio
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+from adafruit_hid.keycode import Keycode
+
+
+import neopixel
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
+import busio
+import adafruit_apds9960.apds9960
+from adafruit_apds9960.apds9960 import APDS9960
+i2c = board.STEMMA_I2C()
+#i2c = board.I2C()
+i2c = board.STEMMA_I2C()
+sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
+apds = APDS9960(i2c)
+
+sensor.enable_color = True
+sensor.color_integration_time = 1
+
+  
+
+"""
+for pin in keypress_pins:
+    key_pin = digitalio.DigitalInOut(pin)
+    key_pin.direction = digitalio.Direction.INPUT
+    key_pin.pull = digitalio.Pull.UP
+    key_pin_array.append(key_pin)
+"""
+
+
+led = digitalio.DigitalInOut(board.SCK)
+led.direction = digitalio.Direction.OUTPUT
+import usb_hid
+from adafruit_hid.keyboard import Keyboard
+from adafruit_hid.keyboard_layout_us import KeyboardLayoutUS
+
+
+while True:
+    kbd = Keyboard(usb_hid.devices)
+    layout = KeyboardLayoutUS(kbd)
+    r, g, b, c = sensor.color_data
+    clr = c
+    print(clr)
+
+
+    if clr>=3:
+        layout.write("\n E ")
+        time.sleep(0.15)
+
+        layout.write("Pluribus ")
+        time.sleep(0.15)
+
+        layout.write("Unum\n")
+        time.sleep(0.15)
+
+
+    if clr<=2:
+        kbd.send(Keycode.BACKSPACE)
+        time.sleep(0.05)
+
+
+        keycodes = layout.keycodes('$')
