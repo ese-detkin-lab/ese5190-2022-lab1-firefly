@@ -34,6 +34,6 @@ Link to GIF:
 The illumination on the photo-sensor of the APDS9960 board is mapped against the X-Axis movement of the mouse. If the illumination around the sensor is bright, the cursor moves towards the right by 2 units per signal. Similarly, if it is dark, the mouse cursor moves towards the left by 2 units per signal.
 
 Link to GIF:
-![MouseControllercompress](https://user-images.githubusercontent.com/69215958/192077963-8cf9898e-bdcf-4e38-8504-40f88b7d379d.gif)
+https://github.com/SurajMarthy1001/ese5190-2022-lab1-firefly-Suraj/raw/main/GIFs/MouseController.gif
 
 ---
