@@ -1,0 +1,43 @@
+import board
+import busio
+import adafruit_apds9960.apds9960
+import neopixel
+import time
+import analogio
+import digitalio
+import usb_hid
+from adafruit_hid.mouse import Mouse
+
+mouse = Mouse(usb_hid.devices)
+
+i2c = board.STEMMA_I2C()
+pixels = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+x_axis = analogio.AnalogIn(board.A0)
+y_axis = analogio.AnalogIn(board.A1)
+select = digitalio.DigitalInOut(board.A2)
+select.direction = digitalio.Direction.INPUT
+select.pull = digitalio.Pull.UP
+
+sensor = adafruit_apds9960.apds9960.APDS9960(i2c)
+sensor.enable_color = True
+sensor.color_integration_time = 50
+
+pot_min = 0.00
+pot_max = 3.29
+step = (pot_max - pot_min) / 20.0
+
+while True:
+    while sensor.color_data_ready:
+        r, g, b, c = sensor.color_data
+        print('Red: {0}, Green: {1}, Blue: {2}, Clear: {3}'.format(r, g, b, c))
+        if c < 100:
+            # print(steps(x))
+            mouse.move(y=0)
+        elif c >= 4000:
+            # print(steps(x))
+            mouse.move(y=-10)
+        if r >= 100 and b <= 200:
+            mouse.move (x=-20)
+        elif r >= 100 and b >= 250:
+            mouse.move (x=20)
