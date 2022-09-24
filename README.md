@@ -17,11 +17,19 @@ time.sleep()
 
 ### The proximity result video is shown below:
 
-https://user-images.githubusercontent.com/114244957/192000826-352c51fb-1477-4278-81bf-85b6859fcf46.mov
+
+
+https://user-images.githubusercontent.com/114244957/192072598-65434ce6-b3a8-4ca9-bc0e-d48b909a33bc.mov
+
+
 
 ### The Color result is shown below:
 
-https://user-images.githubusercontent.com/114244957/192002832-ff3e35bf-002e-4ed1-a88f-a45df752d1ca.mov
+
+
+https://user-images.githubusercontent.com/114244957/192072610-cfee7d66-d4ea-441f-b917-9636eb41b95a.mov
+
+
 
 We can adjust the sampling rate of the color sensor to alter its sensitivity.
 ```python
@@ -30,7 +38,11 @@ apds.color_integration_time = #
 The range is from 1 to 256.
 
 ### The Gesture result is shown below:
-https://user-images.githubusercontent.com/114244957/192003645-10358efb-f69c-49d2-9937-5d7d806beef5.MOV
+
+
+https://user-images.githubusercontent.com/114244957/192072637-cba85f5d-5f57-470e-961f-927638db31a1.MOV
+
+
 
 Notice that:
     0 = No gesture detected;
@@ -43,7 +55,11 @@ Notice that:
 
 ## Section 3 "FIREFLY"
 
-https://user-images.githubusercontent.com/114244957/192005032-9575e462-4189-4930-81bd-42f67fdcab45.mov
+
+
+https://user-images.githubusercontent.com/114244957/192072659-ea51584f-3df9-46a9-8cab-c0e5d7e33da9.mov
+
+
 
 As we increase the sampling rate, the LED responses faster to the firefly.
 The sum of the RGB is chosen even though the light of the firefly is yellow. We can also change the brightness of the LED only according to the red and green colors. However, choosing the sum of all lights can boardern the application.
