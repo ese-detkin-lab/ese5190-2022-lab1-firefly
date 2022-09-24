@@ -1,15 +1,18 @@
-<h1>University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1</h1>
+<h2>University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1</h1>
 
-<h4>JOYENDRA ROY BISWAS</h4>
+<h3>JOYENDRA ROY BISWAS</h4>
+
 [Website](https://joyendra.github.io)
 [LinkedIn](https://www.linkedin.com/in/joyendra-roy-biswas)
+
 Tested on: Lenovo Ideapad 320, Windows 10
 
 <h4> README </h4>
-Welcome to README of ESE 5190 Lab 1 - Firefly. In this lab, the primary objective was to familiarize ourselves with the RP2040 based board from Adafruit called [QTPy](https://learn.adafruit.com/adafruit-qt-py-2040) and interface the [APDS9960](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/1/Avago-APDS-9960-datasheet.pdf) with it using I2C.
-Part 1-3 mainly served as introductory blocks for [CircuitPython](https://learn.adafruit.com/adafruit-qt-py-2040/circuitpython) firmware setup, blinking on-board Neopixel LED and reading sensor values.
+Welcome to README of ESE 5190 Lab 1 - Firefly. In this lab, the primary objective was to familiarize ourselves with the RP2040 based board from Adafruit called 
+**QTPy** and interface the **APDS9960** with it using I2C.
+Part 1-3 mainly served as introductory blocks for **CircuitPython** firmware setup, blinking on-board Neopixel LED and reading sensor values.
 <h3>Section 3.2 - Firefly</h3>
-In this section, we were supposed to mimic a [firefly](https://youtu.be/BtCGtaMrBXQ?t=413) by changing the NeoPixel's brightness in accordance to that of the firefly. For this we:-
+In this section, we were supposed to mimic a firefly(https://youtu.be/BtCGtaMrBXQ?t=413) by changing the NeoPixel's brightness in accordance to that of the firefly. For this we:-
 
     1. Imported the python libraries to read sensor data through the I2C channel.
     2. Once we received the values of r, g, b and c, we found out that the range was [0, 65535] in increasing order of intensity for each color and clear segments.
