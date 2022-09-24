@@ -1,8 +1,4 @@
-# University of Pennsylvania
-
-# ESE5190: Intro to Embedded Systems
-
-# Lab1
+**University of Pennsylvania, ESE5190: Intro to Embedded Systems, Lab1**
 
 Minghui Ni
 
