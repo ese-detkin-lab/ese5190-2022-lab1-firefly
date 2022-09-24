@@ -17,7 +17,10 @@ The functionality is implemented in following:
 Note: Delay is given before the start of the loop so that , keyboard does not start immediately printing on the code itself
 
 
-![alt text](https://github.com/prateekbashista/ese5190-2022-lab1-firefly/blob/9b97d0c6417f98172d9c17d5800e8cf4448a27ca/firefly.mp4)
+
+
+https://user-images.githubusercontent.com/23244847/192071789-1c4a8109-57d0-4229-a4d3-482d7ec8de61.mp4
+
 
 Exercise 4.4
 This functionality is build by incorporating the features of keyboard hid library and the color sensor reading of brightness. The output data of the sensor is between 0 and 65535. This is not in pure readable format for the end user. So, we compartmentlised the data into different ranges , with each range having its keyword. So, the levels are {Dim, Bright, Brighter, Brightest, Burnt Retinas}. In this fucntionality, as the torch comes closer to the sensor, more light it detects, and highrer the reading it gives. 
