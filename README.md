@@ -25,7 +25,7 @@ Link to GIF:
 The user adjusts the ambient brightness levels, which are identified by the photo-sensor, which transmits these values over the I2C interface via the stemma cable. The RP 2040 then compares the brightness levels and determines the keystrokes, which are passed to the computer via the USB-HID interface. These changes can then be observed on the text editor.
 
 Link to GIF:
-![CustomVisualizer_custom](https://user-images.githubusercontent.com/69215958/192077909-0b2e79fb-6aa8-4e38-bd4f-f20fadc3fc73.gif)
+![CustomVisualizer_custom](https://user-images.githubusercontent.com/69215958/192078118-ad4746f4-a94c-42ee-a5e8-c77e7a0bf6cf.gif)
 
 ----
 
