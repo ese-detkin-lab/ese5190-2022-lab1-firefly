@@ -4,7 +4,7 @@ University of Pennsylvania, ESE 5190: Intro to Embedded Systems, Lab 1
         Lab 1 submission
     Tested on: Windows 10
 
-    This lab was compeleted late since this student has not obtained the
+    This lab was completed late since this student has not obtained the
     lab equipment until the due date (Sep 23rd). The new hard due date is
     set to be Sep 30th.
 
@@ -14,7 +14,7 @@ Overview for custom visualizer from 4.4
     movement right/left/up/down as dot/dash/enter/backspace. Then the
     corresponding letter/action key will be pressed on PC keyboard.
     
-    In this system, a dictionary of morse code, named 'Morse_dict' is used
+    In this system, a dictionary of Morse code, named 'Morse_dict' is used
     to select the letters based on input gestures. A str variable named
     'code' is used to store the input dots/dashes, which will be cleared
     once the enter/backspace action is triggered.
