@@ -12,9 +12,7 @@ Overview for custom visualizer from 4.4
 
     In part 4.4, a Morse code Decoder is constructed by reading the gesture
     movement right/left/up/down as dot/dash/enter/backspace. Then the
-    corresponding letter/action key will be pressed on PC keyboard. The
-    link to a GIF that shows the performance of this system is given
-    here: [Part4.GIF](https://github.com/shux3/ese5190-2022-lab1-firefly/blob/main/part4.GIF)
+    corresponding letter/action key will be pressed on PC keyboard.
     
     In this system, a dictionary of morse code, named 'Morse_dict' is used
     to select the letters based on input gestures. A str variable named
