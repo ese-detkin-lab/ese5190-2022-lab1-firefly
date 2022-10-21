@@ -83,6 +83,7 @@ The sample output interactive test tests is shown as:
     
 ![](https://github.com/Yuxuan-Li295/ese5190-2022-lab1-firefly/blob/main/Media/4_4.gif)  
 
+![](https://media.giphy.com/media/joMgdCdvrxvvOjSpzw/giphy.gif)
 # Code  
 
 
